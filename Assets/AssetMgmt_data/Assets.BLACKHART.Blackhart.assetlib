@@ -1,0 +1,201 @@
+{
+    "Configuration": {
+        "Name": "Assets",
+        "FormatVersion": 4,
+        "LastEditTime": 1417596989269449400
+    },
+    "Assets": {
+        "Prefabs/bullet.prefab": {
+            "AssetType": "Prefab",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2187759561,
+                "TimeStamp": 1421773882444535900,
+                "LastEditTime": 1421773883553935000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Prefabs/Ennemy.prefab": {
+            "AssetType": "Prefab",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3477602703,
+                "TimeStamp": 1421773574771786700,
+                "LastEditTime": 1421773575882329100
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Prefabs/player.prefab": {
+            "AssetType": "Prefab",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2382212169,
+                "TimeStamp": 1421778628104127900,
+                "LastEditTime": 1421778629229186000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/Game/main_P01.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Subtype": "2D",
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3365619611,
+                "TimeStamp": 1421857128374786900,
+                "LastEditTime": 1421857129531059300
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "DataFormat": "A8R8G8B8",
+                "HasAlpha": true,
+                "Width": 1024,
+                "Height": 256,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/sceneScript.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2129620321,
+                "TimeStamp": 1421780020811401100,
+                "LastEditTime": 1421780021826984200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/HelloWorld_P01.dds": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Scenes/HelloWorld_P01_C1.dds": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Scenes/HelloWorld_P01_C2.dds": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Scenes/HelloWorld_P01_C3.dds": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Script/CharacterController.lua": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Script/Enemy.lua": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Script/simpleBullet.lua": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101017166800
+            },
+            "File": {
+                "LastEditTime": 1421857101017166800
+            }
+        },
+        "Script/triggerBox.lua": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421857101032765900
+            },
+            "File": {
+                "LastEditTime": 1421857101032765900
+            }
+        }
+    },
+    "TrackedFiles": {
+
+    }
+}

@@ -1,0 +1,154 @@
+﻿# YAML
+bool: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+byte: System.Byte, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+CSharpFramework.BaseTypes.ProfileEnum: CSharpFramework.BaseTypes.ProfileEnum, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Layer: CSharpFramework.Layer, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Math.Vector3F: CSharpFramework.Math.Vector3F, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.ShapeCollection: CSharpFramework.ShapeCollection, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Shapes.LinkCollection: CSharpFramework.Shapes.LinkCollection, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Shapes.Shape3D.eNavMeshUsage: CSharpFramework.Shapes.Shape3D+eNavMeshUsage, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Shapes.ShapeBase: CSharpFramework.Shapes.ShapeBase, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+CSharpFramework.Shapes.ShapeBase.HintFlags_e: CSharpFramework.Shapes.ShapeBase+HintFlags_e, CSharpFramework, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+float: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+int: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+string: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Collections.ArrayList: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Collections.Generic.List<string>: System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Type: System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+uint[]: System.UInt32[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ushort: System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+VisionEditorPlugin.Shapes.LinkTargetVisiblity: VisionEditorPlugin.Shapes.LinkTargetVisiblity, VisionEditorPlugin.EditorPlugin, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+VisionEditorPlugin.Shapes.StaticMeshGroupShape: VisionEditorPlugin.Shapes.StaticMeshGroupShape, VisionEditorPlugin.EditorPlugin, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+VisionEditorPlugin.Shapes.StaticMeshShape: VisionEditorPlugin.Shapes.StaticMeshShape, VisionEditorPlugin.EditorPlugin, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+VisionEditorPlugin.Shapes.StaticMeshShape.LODUsageType_e: VisionEditorPlugin.Shapes.StaticMeshShape+LODUsageType_e, VisionEditorPlugin.EditorPlugin, Version=2014.1.0.1, Culture=neutral, PublicKeyToken=null
+VisionManaged.CollisionBehavior_e: VisionManaged.CollisionBehavior_e, VisionManaged, Version=2014.1.0.38584, Culture=neutral, PublicKeyToken=null
+VisionManaged.WeldingType_e: VisionManaged.WeldingType_e, VisionManaged, Version=2014.1.0.38584, Culture=neutral, PublicKeyToken=null
+...
+---
+- &e06ac0059a824d5d9c86b4042bad66d4 !CSharpFramework.Layer
+  LayerFileVersion: !int 1
+  _layerName: !string Static
+  _activeShape: *72885c86e1d9474cadeb757f5701d052
+  _rootShape: *72885c86e1d9474cadeb757f5701d052
+  _bVisible: !bool True
+  _bExport: !bool True
+  _visibleInProfile: *d8a5805d810d4d989f26238470ca054b
+  _bShapesSelectable: !bool True
+  _layerDescription: null
+  SortingOrder: !int 2
+  _iCurrentShapeID: !uint 42
+  _bIncludeInNavMesh: !bool True
+- &d8a5805d810d4d989f26238470ca054b !CSharpFramework.BaseTypes.ProfileEnum
+  _profiles: !System.Collections.Generic.List%3Cstring%3E []
+  _allProfiles: !bool True
+- &72885c86e1d9474cadeb757f5701d052 !CSharpFramework.Shapes.ShapeBase
+  _shapeName: !string root
+  _parentLayer: *e06ac0059a824d5d9c86b4042bad66d4
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection
+  - *f54128f316e8499aa754359959b35f17
+  _parentShape: null
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e AddedToScene
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 1
+  _userDataString: null
+- &44086036625a401dac616e4629eeb85c !VisionEditorPlugin.Shapes.LinkTargetVisiblity
+  _ownerShape: *e7ab79165b9447eb83a1d9bd4e35b2c7
+  _linkName: !string visibility determined by
+  _primaryStringId: !string VisibilityTarget_1
+  _hotspotIconFilename: !string Bitmaps\Shapes\find.png
+  _linkPaths: !System.Collections.ArrayList []
+- &f54128f316e8499aa754359959b35f17 !VisionEditorPlugin.Shapes.StaticMeshGroupShape
+  _shapeName: !string StaticMeshGroup
+  _parentLayer: *e06ac0059a824d5d9c86b4042bad66d4
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection
+  - *e7ab79165b9447eb83a1d9bd4e35b2c7
+  _parentShape: *72885c86e1d9474cadeb757f5701d052
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, NoScale, AddedToScene, AutoRenamingEnabled
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 42
+  _userDataString: null
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 1
+    Y: !float 1
+    Z: !float 1
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _textLabel: null
+  _bActive: !bool True
+  _objectKey: null
+  _exportFileName: null
+- &e7ab79165b9447eb83a1d9bd4e35b2c7 !VisionEditorPlugin.Shapes.StaticMeshShape
+  _shapeName: !string modelViewerMap.vmesh
+  _parentLayer: *e06ac0059a824d5d9c86b4042bad66d4
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
+  _parentShape: *f54128f316e8499aa754359959b35f17
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e AddedToScene, AutoRenamingEnabled
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList
+    - *44086036625a401dac616e4629eeb85c
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 40
+  _userDataString: null
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 0.5
+    Y: !float 0.5
+    Z: !float 0.5
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 150
+  _textLabel: null
+  _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
+  _meshFile: !string modelViewerMap.vmesh
+  _iVisibleBitmask: !uint 4294967295
+  _iLightInfluenceBitmask: !uint 65535
+  _iCollisionBitmask: !uint 65535
+  _bCastStaticShadows: !bool True
+  _bCastDynamicShadows: !bool False
+  _bPreviewVisibility: !bool False
+  _objectKey: null
+  _vLightGridOfs: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _fLightmapMultiplier: !float 1
+  _fLODSwitchDist: !float 10000
+  _fFarClipDist: !float 0
+  _iLocalIDLowRes2: !uint 41
+  _lodUsage: !VisionEditorPlugin.Shapes.StaticMeshShape.LODUsageType_e FarClipOnly
+  _cachedLODIds: !uint[]
+  - !uint 40
+  _collisionBehavior: !VisionManaged.CollisionBehavior_e FromFile
+  _collisionLayer: !byte 2
+  _subSystemId: !byte 0
+  _subSystemDontCollideWith: !byte 0
+  _systemGroup: !ushort 0
+  _weldingType: !VisionManaged.WeldingType_e None
+...

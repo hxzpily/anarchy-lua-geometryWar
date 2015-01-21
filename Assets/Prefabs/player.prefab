@@ -1,0 +1,141 @@
+<root>
+  <info createdby="vForge version 2014.1.0.1" />
+  <header version="0" name="" description="" category="" convertible="True" autosavebinary="False" relativefilenames="False" />
+  <thumbnail type="jpg" size="1682">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAEAAQADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACiiigAooooAKKKKACiiigCOWIPz0NVXhYH0q9RSsO5nbX7mpYoWY88D1NWwoHQClosFxqKEXAp1FFMQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=</thumbnail>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="1" />
+    <property name="ScaleY" value="1" />
+    <property name="ScaleZ" value="1" />
+    <property name="UniformScaling" value="1" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="True" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="4294967295" />
+    <property name="LightGridSampleOfs" value="0,0,0" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="0,0,-36" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="Entity" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="10252655292869247060" />
+    <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=;" visible="True" serializable="True" editable="True" removable="True" />
+    <shape class="EntityShape">
+      <property name="ModelFile" value="Models/Primitive_Box.model" />
+      <property name="CustomMaterialSet" value="&lt;None&gt;" />
+      <property name="EntityClass" value="VisBaseEntity_cl" />
+      <property name="ClassDefinitionTemplate" value="" />
+      <property name="EntityPropertyString" value="" />
+      <property name="ScaleX" value="0.2" />
+      <property name="ScaleY" value="0.2" />
+      <property name="ScaleZ" value="0.2" />
+      <property name="UniformScaling" value="0.2" />
+      <property name="NavMeshUsage" value="IncludeInNavMesh" />
+      <property name="VisibleBitmask" value="4294967295" />
+      <property name="NearClipDistance" value="0" />
+      <property name="FarClipDistance" value="0" />
+      <property name="RenderOrderPriority" value="0" />
+      <property name="CastDynamicShadows" value="True" />
+      <property name="CastStaticShadows" value="False" />
+      <property name="LightInfluenceBitmask" value="4294967295" />
+      <property name="LightGridSampleOfs" value="0,0,0" />
+      <property name="AmbientColor" value="0,0,0,255" />
+      <property name="ShowLightgridWidget" value="False" />
+      <property name="ObjectKey" value="" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="0,0,-36" />
+      <property name="Orientation" value="0,0,0" />
+      <property name="Scaling" value="0.2,0.2,0.2" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="Primitive_Box.model" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="10252655292869247057" />
+    </shape>
+    <shape class="EntityShape">
+      <property name="ModelFile" value="Models/Primitive_Cylinder.model" />
+      <property name="CustomMaterialSet" value="&lt;None&gt;" />
+      <property name="EntityClass" value="VisBaseEntity_cl" />
+      <property name="ClassDefinitionTemplate" value="" />
+      <property name="EntityPropertyString" value="" />
+      <property name="ScaleX" value="0.1" />
+      <property name="ScaleY" value="0.1" />
+      <property name="ScaleZ" value="0.2" />
+      <property name="UniformScaling" value="0.1333333" />
+      <property name="NavMeshUsage" value="IncludeInNavMesh" />
+      <property name="VisibleBitmask" value="4294967295" />
+      <property name="NearClipDistance" value="0" />
+      <property name="FarClipDistance" value="0" />
+      <property name="RenderOrderPriority" value="0" />
+      <property name="CastDynamicShadows" value="True" />
+      <property name="CastStaticShadows" value="False" />
+      <property name="LightInfluenceBitmask" value="4294967295" />
+      <property name="LightGridSampleOfs" value="0,0,0" />
+      <property name="AmbientColor" value="0,0,0,255" />
+      <property name="ShowLightgridWidget" value="False" />
+      <property name="ObjectKey" value="" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="0,30,-26" />
+      <property name="Orientation" value="0,0,90" />
+      <property name="Scaling" value="0.1,0.1,0.2" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="Primitive_Cylinder.model" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="10252655292869247058" />
+    </shape>
+    <shape class="DynLightShape">
+      <property name="LightColor" value="255,0,0,255" />
+      <property name="LightAttenuationCurve" value="Smooth" />
+      <property name="CustomAttenuationCurveTexture" value="\Atten\smooth.dds" />
+      <property name="Multiplier" value="1.5" />
+      <property name="DistanceFadeEnd" value="0" />
+      <property name="DistanceFadeStart" value="0" />
+      <property name="UseSpecular" value="True" />
+      <property name="LightType" value="Point" />
+      <property name="SpotAngle" value="45" />
+      <property name="ProjectedTexture" value="" />
+      <property name="Radius" value="100" />
+      <property name="Triggered" value="True" />
+      <property name="CastStaticShadows" value="True" />
+      <property name="UsesLightMasks" value="False" />
+      <property name="AnimationCurve" value="" />
+      <property name="AnimationTiming" value="1" />
+      <property name="AnimationPhase" value="0" />
+      <property name="RemoveLightAfterAnimation" value="False" />
+      <property name="WorldInfluenceMask" value="255" />
+      <property name="ObjectInfluenceMask" value="255" />
+      <property name="VisibleBitmask" value="4294967295" />
+      <property name="IsStatic" value="False" />
+      <property name="ExportWhenNotRelevant" value="False" />
+      <property name="PreviewAsDynamicLight" value="True" />
+      <property name="TurnOffAfterLighting" value="True" />
+      <property name="ObjectKey" value="" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="3,0,-21" />
+      <property name="Orientation" value="0,0,0" />
+      <property name="Scaling" value="1,1,1" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="DynamicLight" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="10252655292869247059" />
+      <linktarget class="LinkTargetTriggerComponent" name="ToggleOn" ID="ToggleOn" />
+      <linktarget class="LinkTargetTriggerComponent" name="ToggleOff" ID="ToggleOff" />
+    </shape>
+  </shape>
+</root>

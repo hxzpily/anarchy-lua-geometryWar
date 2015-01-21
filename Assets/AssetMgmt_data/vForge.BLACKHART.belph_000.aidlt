@@ -1,0 +1,12 @@
+script/triggerbox.lua	Script/triggerBox.lua	
+scenes/helloworld_p01.dds	Scenes/HelloWorld_P01.dds	sRGB=false
+scenes/helloworld_p01_c1.dds	Scenes/HelloWorld_P01_C1.dds	sRGB=false
+scenes/helloworld_p01_c2.dds	Scenes/HelloWorld_P01_C2.dds	sRGB=false
+scenes/helloworld_p01_c3.dds	Scenes/HelloWorld_P01_C3.dds	sRGB=false
+script/charactercontroller.lua	Script/CharacterController.lua	
+script/enemy.lua	Script/Enemy.lua	
+script/simplebullet.lua	Script/simpleBullet.lua	
+prefabs/ennemy.prefab	Prefabs/Ennemy.prefab	
+prefabs/bullet.prefab	Prefabs/bullet.prefab	
+prefabs/player.prefab	Prefabs/player.prefab	
+script/scenescript.lua	Script/sceneScript.lua	
