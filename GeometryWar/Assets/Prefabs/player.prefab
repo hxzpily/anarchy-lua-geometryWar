@@ -25,15 +25,16 @@
     <property name="ShowLightgridWidget" value="False" />
     <property name="ObjectKey" value="" />
     <property name="Visible" value="True" />
-    <property name="Position" value="0,0,-36" />
+    <property name="Position" value="0,0,0" />
     <property name="Orientation" value="0,0,0" />
     <property name="Scaling" value="0.2,0.2,0.2" />
     <property name="TextLabel" value="" />
     <property name="ShapeName" value="Primitive_Box.model" />
     <property name="UserDataString" value="" />
     <property name="ExportShape" value="True" />
-    <property name="UniqueID" value="10252655292869247079" />
+    <property name="UniqueID" value="10252655292869247086" />
     <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Convex Hull;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Havok_NoDeactivate=False;Havok_Mass=10;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;Shape_CenterOfMass=0,0,0;Havok_GravityFactor=1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Shape_PivotOffset=0,0,0;Shape_PivotOffsetAutoAlign=True;Debug_Render=False;Debug_Color=50,255,50,255;" visible="True" serializable="True" editable="True" removable="True" />
+    <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=Script\092characterController.lua;" visible="True" serializable="True" editable="True" removable="True" />
     <shape class="EntityShape">
       <property name="ModelFile" value="Models/Primitive_Cylinder.model" />
       <property name="CustomMaterialSet" value="&lt;None&gt;" />
@@ -57,17 +58,17 @@
       <property name="ShowLightgridWidget" value="False" />
       <property name="ObjectKey" value="" />
       <property name="Visible" value="True" />
-      <property name="Position" value="0,30,-26" />
+      <property name="Position" value="0,30,10" />
       <property name="Orientation" value="0,0,90" />
       <property name="Scaling" value="0.1,0.1,0.2" />
       <property name="TextLabel" value="" />
       <property name="ShapeName" value="Primitive_Cylinder.model" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247080" />
+      <property name="UniqueID" value="10252655292869247084" />
     </shape>
     <shape class="DynLightShape">
-      <property name="LightColor" value="255,0,0,255" />
+      <property name="LightColor" value="0,255,8,255" />
       <property name="LightAttenuationCurve" value="Smooth" />
       <property name="CustomAttenuationCurveTexture" value="\Atten\smooth.dds" />
       <property name="Multiplier" value="1.5" />
@@ -94,14 +95,14 @@
       <property name="TurnOffAfterLighting" value="True" />
       <property name="ObjectKey" value="" />
       <property name="Visible" value="True" />
-      <property name="Position" value="3,0,-31" />
+      <property name="Position" value="0,0,0" />
       <property name="Orientation" value="0,0,0" />
       <property name="Scaling" value="1,1,1" />
       <property name="TextLabel" value="" />
       <property name="ShapeName" value="DynamicLight" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247081" />
+      <property name="UniqueID" value="10252655292869247085" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOn" ID="ToggleOn" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOff" ID="ToggleOff" />
     </shape>

@@ -13,8 +13,8 @@ System.Type: System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyT
 uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 ...
 ---
-- &849fa0bad296458cb8b223214ee73c34 !CSharpFramework.Scene.SceneExportProfile
-  ExportPath: !string Scenes\HelloWorld.vscene
+- &efe3229d3dae4f5d9a2ced25214fa621 !CSharpFramework.Scene.SceneExportProfile
+  ExportPath: !string Scenes\main.vscene
   RunAfterExport: !bool False
   IncludeVisibilityInfo: !bool True
   EmbedCustomLitFile: !bool False
@@ -31,9 +31,9 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
     data: !System.Collections.ArrayList []
   PluginsUserSelection: !System.Collections.Generic.Dictionary%3Cstring,%20bool%3E
     Version: !int 0
-    Comparer: *2985fe06ba2f47eda81a1a419b629375
+    Comparer: *79b9c95928c841cd8e5ee3116097faff
     HashSize: !int 0
-  SelectedAssetProfiles: *9a62ac640bd64636875613366dced8f0
+  SelectedAssetProfiles: *6dae13c5793845fda9977bd0270de09f
   _allLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
@@ -41,8 +41,8 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
     - !string Entity
   _allZoneNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList []
-- &9a62ac640bd64636875613366dced8f0 !CSharpFramework.BaseTypes.ProfileEnum
+- &6dae13c5793845fda9977bd0270de09f !CSharpFramework.BaseTypes.ProfileEnum
   _profiles: !System.Collections.Generic.List%3Cstring%3E []
   _allProfiles: !bool True
-- &2985fe06ba2f47eda81a1a419b629375 !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
+- &79b9c95928c841cd8e5ee3116097faff !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
 ...
