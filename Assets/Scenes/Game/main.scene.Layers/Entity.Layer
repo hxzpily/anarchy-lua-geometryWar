@@ -589,7 +589,7 @@ VisionEditorPlugin.Shapes.PrefabShape: VisionEditorPlugin.Shapes.PrefabShape, Vi
   - *b3c89819ddc24322bf78f718703826a5
   - *0c52ef0e359e42389a1ef5ff4af6b9c5
   _parentShape: *b1552c548cfb4192a9b783c10df29056
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, ForceSceneGraphParenting, AddedToScene
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, ForceSceneGraphParenting, AddedToScene, RenderHookCallbackEnabled
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
@@ -825,6 +825,24 @@ VisionEditorPlugin.Shapes.PrefabShape: VisionEditorPlugin.Shapes.PrefabShape, Vi
       _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
         _name: !string Debug_Color
         _nativeType: !System.Type CSharpFramework.BaseTypes.Color4
+    _bRemovable: !bool True
+    _bActive: !bool True
+    _bVisible: !bool True
+    _bEditable: !bool True
+    _bCreatedByNative: !bool False
+  - !CSharpFramework.Scene.ShapeComponent
+    _collectionType: *ae3bd3742dead7b9d17e613c84922683
+    _properties: !System.Collections.ArrayList
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string 
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ComponentID
+        _nativeType: !System.Type string
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Script\characterController.lua
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ScriptFile
+        _nativeType: !System.Type string
     _bRemovable: !bool True
     _bActive: !bool True
     _bVisible: !bool True

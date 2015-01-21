@@ -3,3 +3,4 @@ prefabs/ennemy.prefab	Prefabs/Ennemy.prefab
 prefabs/player.prefab	Prefabs/player.prefab	
 script/scenescript.lua	Script/sceneScript.lua	
 scenes/game/main_p01.dds	Scenes/Game/main_P01.dds	sRGB=false
+script/charactercontroller.lua	Script/characterController.lua	

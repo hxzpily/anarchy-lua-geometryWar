@@ -101,6 +101,27 @@
                 "TemplateName": "Default"
             }
         },
+        "Script/characterController.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 706994454,
+                "TimeStamp": 1421860031413857300,
+                "LastEditTime": 1421860032538897400
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Script/sceneScript.lua": {
             "AssetType": "Script",
             "Common": {
@@ -150,15 +171,6 @@
             }
         },
         "Scenes/HelloWorld_P01_C3.dds": {
-            "AssetType": "__deleted__",
-            "Common": {
-                "DeleteTime": 1421857101017166800
-            },
-            "File": {
-                "LastEditTime": 1421857101017166800
-            }
-        },
-        "Script/CharacterController.lua": {
             "AssetType": "__deleted__",
             "Common": {
                 "DeleteTime": 1421857101017166800

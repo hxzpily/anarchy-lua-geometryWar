@@ -2,4 +2,5 @@ prefabs/bullet.prefab	Prefabs/bullet.prefab
 prefabs/ennemy.prefab	Prefabs/Ennemy.prefab	
 prefabs/player.prefab	Prefabs/player.prefab	
 scenes/game/main_p01.dds	AssetMgmt_data/transformed/main_p01drtqkmsclgdtc.dds	sRGB=false
+script/charactercontroller.lua	Script/characterController.lua	
 script/scenescript.lua	Script/sceneScript.lua	
