@@ -469,7 +469,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   - *fecbf877e52144eeaa4249da525b22d7
   - *7d994651397b44d5a3bcd83a702d6266
   _parentShape: *b1552c548cfb4192a9b783c10df29056
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, ForceSceneGraphParenting, AddedToScene
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, ForceSceneGraphParenting, AddedToScene, RenderHookCallbackEnabled
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
