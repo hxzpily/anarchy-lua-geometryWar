@@ -984,7 +984,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
   _childCollectionGeneric: !CSharpFramework.ShapeCollection []
   _parentShape: *761078082b90478da0f2be6f21a19d70
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e Selected, Scene2DRenderingEnabled, AddedToScene, AutoRenamingEnabled
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e Scene2DRenderingEnabled, AddedToScene, AutoRenamingEnabled
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList
@@ -1098,7 +1098,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float -6.153085
     Z: !float 86.80773
   _textLabel: null
-  _objectKey: !string collBotom
+  _objectKey: !string collBottom
   _vBoxSize: !CSharpFramework.Math.Vector3F
     X: !float 500
     Y: !float 500
@@ -1231,7 +1231,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Z: !float 0.26327756
   _position: !CSharpFramework.Math.Vector3F
     X: !float -2.16237164
-    Y: !float -244.349823
+    Y: !float -240.233551
     Z: !float 86
   _textLabel: null
   _objectKey: !string collLeft
@@ -1299,7 +1299,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Z: !float 0.26327756
   _position: !CSharpFramework.Math.Vector3F
     X: !float -2.16237164
-    Y: !float 243.342468
+    Y: !float 240.411987
     Z: !float 86
   _textLabel: null
   _objectKey: !string collRight
