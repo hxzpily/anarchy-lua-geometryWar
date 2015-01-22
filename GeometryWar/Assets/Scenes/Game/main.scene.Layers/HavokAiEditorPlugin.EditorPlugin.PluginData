@@ -84,7 +84,7 @@ System.Type: System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyT
   LinkPlanarAlignmentAngle: !float 5
   LinkVerticalAlignmentAngle: !float 60
   LinkMinEdgeOverlap: !float 0.02
-  ConnectNavToPhysics: !bool False
+  ConnectNavToPhysics: !bool True
 - &7688dc2b8ca64d75ae4b35c69cff2117 !HavokAiEditorPlugin.Shapes.HavokNavMeshGlobalSettingsDictionary
   SettingsDictionary: !System.Collections.Generic.Dictionary%3Cstring,%20HavokAiEditorPlugin.Shapes.HavokNavMeshGlobalSettings%3E
     Version: !int 1

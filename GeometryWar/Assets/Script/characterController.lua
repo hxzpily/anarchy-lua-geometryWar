@@ -7,6 +7,11 @@ self.defaultFireRate = 0.2f;
 self.fireRate = self.defaultFireRate;
 self.bulletDefaultPos = Game:GetEntity("bulletDefaultPos");
 
+self.minEdgeX = Game:GetEntity("collBottom"):GetPosition().x;
+self.maxEdgeX = Game:GetEntity("collTop"):GetPosition().x;
+self.minEdgeY = Game:GetEntity("collLeft"):GetPosition().y;
+self.maxEdgeY = Game:GetEntity("collRight"):GetPosition().y;
+
 end
 
 function OnThink(self)
@@ -24,6 +29,18 @@ if (Input:IsKeyPressed(Vision.KEY_Z)) then
 end
 if (Input:IsKeyPressed(Vision.KEY_S)) then
   self:IncPosition(-self:GetObjDir_Right() * self.movementSpeed * Timer:GetTimeDiff());
+end
+
+if (self:GetPosition().x > self.maxEdgeX) then
+  self:SetPosition(self.maxEdgeX, self:GetPosition().y, self:GetPosition().z);
+elseif (self:GetPosition().x < self.minEdgeX) then
+  self:SetPosition(self.minEdgeX, self:GetPosition().y, self:GetPosition().z);
+end
+
+if (self:GetPosition().y > self.maxEdgeY) then
+  self:SetPosition(self:GetPosition().x, self.maxEdgeY, self:GetPosition().z);
+elseif (self:GetPosition().y < self.minEdgeY) then
+  self:SetPosition(self:GetPosition().x, self.minEdgeY, self:GetPosition().z);
 end
 
 end

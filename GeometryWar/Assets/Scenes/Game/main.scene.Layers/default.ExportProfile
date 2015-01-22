@@ -25,6 +25,7 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
   ExportedLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
+    - !string Nav Mesh
     - !string Static
     - !string Entity
   ExportedZoneNames: !System.Collections.Specialized.StringCollection
@@ -37,6 +38,7 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
   _allLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
+    - !string Nav Mesh
     - !string Static
     - !string Entity
   _allZoneNames: !System.Collections.Specialized.StringCollection

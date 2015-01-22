@@ -35,7 +35,7 @@ VisionEditorPlugin.Shapes.CameraPositionShape: VisionEditorPlugin.Shapes.CameraP
   _bShapesSelectable: !bool True
   _layerDescription: null
   SortingOrder: !int 1
-  _iCurrentShapeID: !uint 49
+  _iCurrentShapeID: !uint 99
   _bIncludeInNavMesh: !bool True
   _v3dFilename: null
   _orthographicViewBox: null
