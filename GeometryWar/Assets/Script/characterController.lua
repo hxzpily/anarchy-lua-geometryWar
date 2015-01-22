@@ -2,8 +2,10 @@
 function OnAfterSceneLoaded(self)
 
 self.movementSpeed = 100.0f;
-self.orientationSpeed = 100.0f;
-self.fireRate = 10.0f;
+self.orientationSpeed = 200.0f;
+self.defaultFireRate = 0.2f;
+self.fireRate = self.defaultFireRate;
+self.bulletDefaultPos = Game:GetEntity("bulletDefaultPos");
 
 end
 
@@ -11,6 +13,7 @@ function OnThink(self)
 
 moveCharacter(self);
 orientCharacter(self);
+fire(self);
 
 end
 
@@ -25,7 +28,6 @@ end
 
 end
 
-
 function orientCharacter(self)
 
 if (Input:IsKeyPressed(Vision.KEY_D)) then
@@ -33,6 +35,16 @@ if (Input:IsKeyPressed(Vision.KEY_D)) then
 end
 if (Input:IsKeyPressed(Vision.KEY_Q)) then
   self:IncOrientation(self.orientationSpeed * Timer:GetTimeDiff(), 0.0f, 0.0f);
+end
+
+end
+
+function fire(self)
+
+self.fireRate = self.fireRate - Timer:GetTimeDiff();
+if (self.fireRate <= 0.0f and Input:IsKeyPressed(Vision.KEY_SPACE)) then
+  Game:InstantiatePrefab(self.bulletDefaultPos:GetPosition(), "Prefabs/bullet.vprefab", nil);
+  self.fireRate = self.defaultFireRate;
 end
 
 end

@@ -18,9 +18,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 1237039963,
-                "TimeStamp": 1421860273065270000,
-                "LastEditTime": 1421860274174639100
+                "Hash": 3417612720,
+                "TimeStamp": 1421949703273944200,
+                "LastEditTime": 1421949862959231900
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -39,9 +39,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 682998189,
-                "TimeStamp": 1421860269527138900,
-                "LastEditTime": 1421860270652201900
+                "Hash": 1958077477,
+                "TimeStamp": 1421950216747221400,
+                "LastEditTime": 1421950217875383600
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -82,9 +82,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 3420901790,
-                "TimeStamp": 1421859762703400300,
-                "LastEditTime": 1421859762868932900
+                "Hash": 2429684972,
+                "TimeStamp": 1421934183061053600,
+                "LastEditTime": 1421934184331270500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -96,6 +96,27 @@
                 "CubeFaces": 1,
                 "Images": 1,
                 "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/bullet.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 1073232655,
+                "TimeStamp": 1421948826240816500,
+                "LastEditTime": 1421948827256462000
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -114,9 +135,93 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 1116275565,
-                "TimeStamp": 1421870615613945900,
-                "LastEditTime": 1421870616626828500
+                "Hash": 2097254867,
+                "TimeStamp": 1421943481788328600,
+                "LastEditTime": 1421943482803993800
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/ennemyData.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 4109935767,
+                "TimeStamp": 1421949521044465400,
+                "LastEditTime": 1421949862959231900
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/ennemyTriggerHit.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2671907504,
+                "TimeStamp": 1421950212857669400,
+                "LastEditTime": 1421950213875439000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/mapCollider.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2652644695,
+                "TimeStamp": 1421950545041190900,
+                "LastEditTime": 1421950546056789600
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/playerTriggerHit.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 254762346,
+                "TimeStamp": 1421949184264907300,
+                "LastEditTime": 1421949185280547100
             },
             "Transformations": {
                 "TemplateName": "Default"

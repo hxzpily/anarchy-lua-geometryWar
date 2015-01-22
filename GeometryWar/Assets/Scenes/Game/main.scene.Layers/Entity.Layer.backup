@@ -58,7 +58,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _bShapesSelectable: !bool True
   _layerDescription: null
   SortingOrder: !int 3
-  _iCurrentShapeID: !uint 121
+  _iCurrentShapeID: !uint 224
   _bIncludeInNavMesh: !bool True
 - &501e773208d94f3faa0b61a9f410baad !CSharpFramework.BaseTypes.ProfileEnum
   _profiles: !System.Collections.Generic.List%3Cstring%3E []
@@ -239,6 +239,18 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string OnCameraEnter
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
+- &0c82ad6c9394456f801aaa700be5295b !CSharpFramework.Shapes.LinkTargetTriggerComponent
+  _ownerShape: *45eed28de52b4aadb7519b3c0044d1de
+  _linkName: !string ToggleOn
+  _primaryStringId: !string ToggleOn
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
+  _linkPaths: !System.Collections.ArrayList []
+- &2ae5b77450904543903374c839803d7f !CSharpFramework.Shapes.LinkTargetTriggerComponent
+  _ownerShape: *45eed28de52b4aadb7519b3c0044d1de
+  _linkName: !string ToggleOff
+  _primaryStringId: !string ToggleOff
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
+  _linkPaths: !System.Collections.ArrayList []
 - &b9e0befa128c490387dee3bfc4f9df6f !CSharpFramework.Shapes.LinkTargetTriggerComponent
   _ownerShape: *918cc0f5ae8d41e0a98dd95a5aedacb7
   _linkName: !string ToggleOff
@@ -270,7 +282,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   - *918cc0f5ae8d41e0a98dd95a5aedacb7
   - *b1552c548cfb4192a9b783c10df29056
   - *fd72de6ccf7d4e1aba6e9ae90d1c99d8
-  - *483462ad7ebc479595db88e97ea7a77f
+  - *45eed28de52b4aadb7519b3c0044d1de
   _parentShape: null
   _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e AddedToScene
   _bVisible: !bool True
@@ -282,6 +294,68 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     CollectionBase+list: !System.Collections.ArrayList []
   _iLocalID: !uint 1
   _userDataString: null
+- &45eed28de52b4aadb7519b3c0044d1de !VisionEditorPlugin.Shapes.DynLightShape
+  _shapeName: !string StaticLight
+  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
+  _parentShape: *af33d82a0006492eb7ef91617f367a6c
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e OnlyUniformScale, AddedToScene, AutoRenamingEnabled
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList
+    - *0c82ad6c9394456f801aaa700be5295b
+    - *2ae5b77450904543903374c839803d7f
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 127
+  _userDataString: null
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 1
+    Y: !float 1
+    Z: !float 1
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float -142.094437
+    Y: !float -10.0704794
+    Z: !float 323.0027
+  _textLabel: null
+  _objectKey: null
+  _lightColor: !System.Drawing.Color
+    name: null
+    value: !long 0
+    knownColor: !short 164
+    state: !short 1
+  _fIntensity: !float 1000
+  _lightType: !VisionEditorPlugin.Shapes.DynLightShape.LightType_e Point
+  _fSpotAngle: !float 45
+  _sProjectedTexture: null
+  _bModelShadows: !bool False
+  _bWorldShadows: !bool True
+  _colorAnimTable: null
+  _fAnimTiming: !float 1
+  _fAnimPhase: !float 0
+  _iWorldInfluence: !int 255
+  _iObjectInfluence: !int 255
+  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
+  _bStatic: !bool True
+  _bPreviewStatic: !bool True
+  _bTurnOffAfterLighting: !bool True
+  _bExportWhenNotRelevant: !bool False
+  _bBakedToLightmap: !bool False
+  _sLightAttenuationTex: !string '\Atten\smooth.dds'
+  _eLightAttenuationCurve: !VisionEditorPlugin.Shapes.DynLightShape.LightAttenuationCurve_e Smooth
+  _lightMultiplier: !float 1
+  _fFadeStart: !float 0
+  _fFadeEnd: !float 0
+  _bTriggered: !bool True
+  _bUseSpecular: !bool True
+  _bRemoveLightAfterAnim: !bool False
+  SupportScaling: !bool True
 - &918cc0f5ae8d41e0a98dd95a5aedacb7 !VisionEditorPlugin.Shapes.DynLightShape
   _shapeName: !string StaticDirectionalLight
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
@@ -362,7 +436,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _iLocalID: !uint 115
   _userDataString: null
   _orientation: !CSharpFramework.Math.Vector3F
-    X: !float -90
+    X: !float 0
     Y: !float 0
     Z: !float 0
   _scale: !CSharpFramework.Math.Vector3F
@@ -370,8 +444,8 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 1
     Z: !float 1
   _position: !CSharpFramework.Math.Vector3F
-    X: !float 52
-    Y: !float 144.077225
+    X: !float 10.1113472
+    Y: !float -14.31134
     Z: !float 92
   _textLabel: null
   _objectKey: null
@@ -410,6 +484,57 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _propertyTypes: !System.Collections.ArrayList []
   _uniqueName: !string VisBaseEntity_cl
   _flags: !CSharpFramework.DynamicProperties.DynamicPropertyCollectionType.DynamicPropertyCollectionFlags_e None
+- &70f687fefdb741c1954612d65aca3a4a !VisionEditorPlugin.Shapes.EntityShape
+  _shapeName: !string Entity
+  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
+  _parentShape: *e11434401cd542179f914b36b2021f0c
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e ForceSceneGraphParenting, AddedToScene, AutoRenamingEnabled
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 138
+  _userDataString: null
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 1
+    Y: !float 1
+    Z: !float 1
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float 10.1113472
+    Y: !float 21.2246552
+    Z: !float 101.016083
+  _textLabel: null
+  _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
+  _objectKey: !string bulletDefaultPos
+  _entityClass: !string VisBaseEntity_cl
+  _entityProperties: !VisionEditorPlugin.Shapes.EntityPropertyCollection
+    _collectionType: *2d48c0fadc1f446418f504e6a921c5ce
+    _properties: !System.Collections.ArrayList []
+  _modelFile: !string 
+  _bCastStaticShadows: !bool False
+  _bCastDynamicShadows: !bool False
+  _vLightGridOfs: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
+  _iLightInfluenceBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e Bit0
+  _ambientColor: !System.Drawing.Color
+    name: null
+    value: !long 0
+    knownColor: !short 35
+    state: !short 1
+  _farClipDistance: !float 0
+  _nearClipDistance: !float 0
+  _renderOrderPriority: !sbyte 0
 - &a02f8eb4a8034ceb8b7457ce2ffa1e72 !VisionEditorPlugin.Shapes.EntityShape
   _shapeName: !string Primitive_Cylinder.model
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
@@ -426,7 +551,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _iLocalID: !uint 114
   _userDataString: null
   _orientation: !CSharpFramework.Math.Vector3F
-    X: !float -90
+    X: !float 0
     Y: !float 0
     Z: !float 90
   _scale: !CSharpFramework.Math.Vector3F
@@ -434,8 +559,8 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 0.1
     Z: !float 0.2
   _position: !CSharpFramework.Math.Vector3F
-    X: !float 82
-    Y: !float 144.077225
+    X: !float 10.1113472
+    Y: !float 15.68866
     Z: !float 102
   _textLabel: null
   _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
@@ -468,6 +593,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   - *a02f8eb4a8034ceb8b7457ce2ffa1e72
   - *fecbf877e52144eeaa4249da525b22d7
   - *7d994651397b44d5a3bcd83a702d6266
+  - *70f687fefdb741c1954612d65aca3a4a
   _parentShape: *b1552c548cfb4192a9b783c10df29056
   _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, ForceSceneGraphParenting, AddedToScene
   _bVisible: !bool True
@@ -729,7 +855,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     _bEditable: !bool True
     _bCreatedByNative: !bool False
   _orientation: !CSharpFramework.Math.Vector3F
-    X: !float -90
+    X: !float 0
     Y: !float 0
     Z: !float 0
   _scale: !CSharpFramework.Math.Vector3F
@@ -737,12 +863,12 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 0.2
     Z: !float 0.2
   _position: !CSharpFramework.Math.Vector3F
-    X: !float 52
-    Y: !float 144.077225
+    X: !float 10.1113472
+    Y: !float -14.31134
     Z: !float 92
   _textLabel: null
   _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
-  _objectKey: null
+  _objectKey: !string Character
   _entityClass: !string VisBaseEntity_cl
   _entityProperties: !VisionEditorPlugin.Shapes.EntityPropertyCollection
     _collectionType: *2d48c0fadc1f446418f504e6a921c5ce
@@ -764,54 +890,13 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _farClipDistance: !float 0
   _nearClipDistance: !float 0
   _renderOrderPriority: !sbyte 0
-- &483462ad7ebc479595db88e97ea7a77f !VisionEditorPlugin.Shapes.PrefabShape
-  _shapeName: !string Prefabs/bullet.prefab
-  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
-  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
-  _parentShape: *af33d82a0006492eb7ef91617f367a6c
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, AddedToScene, SkipParenting, AutoRenamingEnabled
-  _bVisible: !bool True
-  _linkSources: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _linkTargets: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _iLocalID: !uint 101
-  _userDataString: null
-  _orientation: !CSharpFramework.Math.Vector3F
-    X: !float 0
-    Y: !float 0
-    Z: !float 0
-  _scale: !CSharpFramework.Math.Vector3F
-    X: !float 1
-    Y: !float 1
-    Z: !float 1
-  _position: !CSharpFramework.Math.Vector3F
-    X: !float 140
-    Y: !float -49
-    Z: !float 92
-  _textLabel: null
-  _objectKey: null
-  _fileName: !string Prefabs/bullet.prefab
-  _bEditable: !bool False
-  _ExportAsPrefabInstance: !bool False
-  _uniqueIDMatch: !VisionEditorPlugin.Shapes.LocalIDDict
-    _count: !int 2
-    _keys: !uint[]
-    - !uint 113
-    - !uint 112
-    _values: !uint[]
-    - !uint 119
-    - !uint 120
-  _perInstanceParameter: null
 - &b1552c548cfb4192a9b783c10df29056 !VisionEditorPlugin.Shapes.PrefabShape
   _shapeName: !string Prefabs/player.prefab
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
   _childCollectionGeneric: !CSharpFramework.ShapeCollection
   - *e11434401cd542179f914b36b2021f0c
   _parentShape: *af33d82a0006492eb7ef91617f367a6c
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, AddedToScene, SkipParenting, AutoRenamingEnabled
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, AddedToScene, SkipParenting, AutoRenamingEnabled
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
@@ -830,11 +915,11 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 1
     Z: !float 1
   _position: !CSharpFramework.Math.Vector3F
-    X: !float 52
-    Y: !float 144.077225
+    X: !float 10.1113472
+    Y: !float -14.31134
     Z: !float 92
   _textLabel: null
-  _objectKey: null
+  _objectKey: !string 
   _fileName: !string Prefabs/player.prefab
   _bEditable: !bool True
   _ExportAsPrefabInstance: !bool False
@@ -854,7 +939,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
   _childCollectionGeneric: !CSharpFramework.ShapeCollection []
   _parentShape: *af33d82a0006492eb7ef91617f367a6c
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, AddedToScene, SkipParenting, AutoRenamingEnabled
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, AddedToScene, SkipParenting, AutoRenamingEnabled
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
@@ -873,22 +958,24 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 1
     Z: !float 1
   _position: !CSharpFramework.Math.Vector3F
-    X: !float -17.3339424
-    Y: !float -172.166122
-    Z: !float 92
+    X: !float -125.090485
+    Y: !float 166.488861
+    Z: !float 100.0305
   _textLabel: null
-  _objectKey: null
+  _objectKey: !string ennemy
   _fileName: !string Prefabs/Ennemy.prefab
   _bEditable: !bool False
   _ExportAsPrefabInstance: !bool False
   _uniqueIDMatch: !VisionEditorPlugin.Shapes.LocalIDDict
-    _count: !int 2
+    _count: !int 3
     _keys: !uint[]
-    - !uint 111
-    - !uint 100
+    - !uint 213
+    - !uint 214
+    - !uint 215
     _values: !uint[]
-    - !uint 117
-    - !uint 118
+    - !uint 222
+    - !uint 223
+    - !uint 224
   _perInstanceParameter: null
 - &7d994651397b44d5a3bcd83a702d6266 !VisionEditorPlugin.Shapes.TriggerBoxShape
   _shapeName: !string TriggerBox
@@ -909,8 +996,27 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     CollectionBase+list: !System.Collections.ArrayList []
   _iLocalID: !uint 121
   _userDataString: null
+  _componentList: !CSharpFramework.Scene.ShapeComponentCollection
+  - !CSharpFramework.Scene.ShapeComponent
+    _collectionType: *ae3bd3742dead7b9d17e613c84922683
+    _properties: !System.Collections.ArrayList
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string 
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ComponentID
+        _nativeType: !System.Type string
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Script\playerTriggerHit.lua
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ScriptFile
+        _nativeType: !System.Type string
+    _bRemovable: !bool True
+    _bActive: !bool True
+    _bVisible: !bool True
+    _bEditable: !bool True
+    _bCreatedByNative: !bool False
   _orientation: !CSharpFramework.Math.Vector3F
-    X: !float -90
+    X: !float 0
     Y: !float 0
     Z: !float 0
   _scale: !CSharpFramework.Math.Vector3F
@@ -918,8 +1024,8 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 0.0812347457
     Z: !float 0.1
   _position: !CSharpFramework.Math.Vector3F
-    X: !float 61.73436
-    Y: !float 144.077225
+    X: !float 10.1113472
+    Y: !float -4.57698059
     Z: !float 103.194763
   _textLabel: null
   _objectKey: null
@@ -928,7 +1034,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 500
     Z: !float 250
   _bDestroyOnTrigger: !bool False
-  _iObserverFlags: !VisionManaged.TriggerBoxObserverFlags_e MainCamera
+  _iObserverFlags: !VisionManaged.TriggerBoxObserverFlags_e AllEntities
   _bEnabled: !bool True
   _bPreview2D: !bool True
   _bPreview3D: !bool True
