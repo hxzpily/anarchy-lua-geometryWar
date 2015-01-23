@@ -39,9 +39,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 2065236621,
-                "TimeStamp": 1421962570401702400,
-                "LastEditTime": 1421962571533126500
+                "Hash": 1964739970,
+                "TimeStamp": 1421974230353205400,
+                "LastEditTime": 1421974231540775700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -114,9 +114,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 1754617890,
-                "TimeStamp": 1421971431788753800,
-                "LastEditTime": 1421971432863332700
+                "Hash": 1593971434,
+                "TimeStamp": 1421973919440157800,
+                "LastEditTime": 1421973920467633600
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -135,9 +135,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 2792300557,
-                "TimeStamp": 1421970785801603000,
-                "LastEditTime": 1421970786817193100
+                "Hash": 3269301110,
+                "TimeStamp": 1421972464132896100,
+                "LastEditTime": 1421972465148594600
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -156,9 +156,30 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 567552985,
-                "TimeStamp": 1421972263499475200,
-                "LastEditTime": 1421972264512310900
+                "Hash": 2203806323,
+                "TimeStamp": 1421973882801165400,
+                "LastEditTime": 1421973883816802700
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Script/enemyGenerator.lua": {
+            "AssetType": "Script",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2788598729,
+                "TimeStamp": 1421974222479725000,
+                "LastEditTime": 1421974223495400100
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -291,15 +312,6 @@
             },
             "File": {
                 "LastEditTime": 1421857101017166800
-            }
-        },
-        "Script/ennemyData.lua": {
-            "AssetType": "__deleted__",
-            "Common": {
-                "DeleteTime": 1421971554322465300
-            },
-            "File": {
-                "LastEditTime": 1421971554322465300
             }
         },
         "Script/simpleBullet.lua": {

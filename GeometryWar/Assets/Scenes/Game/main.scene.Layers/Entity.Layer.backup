@@ -706,7 +706,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   - *2fde226bc91b4fe49b634c00081d3c0b
   - *e0790f738c9c422481ecd0613644ea7e
   _parentShape: *f6628681799646f080f4d731d6d8e446
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, ForceSceneGraphParenting, AddedToScene, RenderHookCallbackEnabled
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, ForceSceneGraphParenting, AddedToScene
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
@@ -1779,7 +1779,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Y: !float 16.2604465
     Z: !float 91.16034
   _textLabel: null
-  _objectKey: null
+  _objectKey: !string BaseCharacter
   _fileName: !string Prefabs/player.prefab
   _bEditable: !bool True
   _ExportAsPrefabInstance: !bool False

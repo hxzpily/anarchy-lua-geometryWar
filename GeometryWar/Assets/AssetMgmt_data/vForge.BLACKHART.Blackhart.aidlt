@@ -9,3 +9,4 @@ script/enemycontroller.lua	Script/enemyController.lua
 script/ennemytriggerhit.lua	Script/ennemyTriggerHit.lua	
 script/mapcollider.lua	Script/mapCollider.lua	
 script/playertriggerhit.lua	Script/playerTriggerHit.lua	
+script/enemygenerator.lua	Script/enemyGenerator.lua	

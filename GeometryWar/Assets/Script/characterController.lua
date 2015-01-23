@@ -25,7 +25,7 @@ function OnThink(self)
 moveCharacter(self);
 orientCharacter(self);
 fire(self);
-Debug:PrintLine(tostring(self.currentScore));
+--Debug:PrintLine(tostring(self.currentScore));
 
 end
 

@@ -2,6 +2,15 @@
 
 function OnAfterSceneLoaded(self)
 
+initPrefab(self);
+
+end
+
+
+
+function initPrefab(self)
+
+self.init = true;
 self.ennemy = true;
 self.defaultGain = 5.0f;
 self.speed = math.random(30.0f, 50.0f);
@@ -11,8 +20,13 @@ self.target = Game:GetEntity("Character");
 end
 
 
-
 function OnThink(self)
+
+if (self.init == nil) then
+
+  initPrefab(self);
+  
+end
 
 move(self);
 
