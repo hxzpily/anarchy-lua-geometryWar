@@ -59,7 +59,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _bShapesSelectable: !bool True
   _layerDescription: null
   SortingOrder: !int 4
-  _iCurrentShapeID: !uint 295
+  _iCurrentShapeID: !uint 301
   _bIncludeInNavMesh: !bool True
 - &501e773208d94f3faa0b61a9f410baad !CSharpFramework.BaseTypes.ProfileEnum
   _profiles: !System.Collections.Generic.List%3Cstring%3E []
@@ -222,22 +222,16 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string OnCameraLeave
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
-- &1c16f1ffd4aa48958e4abaec3b728a5c !CSharpFramework.Shapes.LinkSourceTriggerComponent
-  _ownerShape: *4715575d60ad457fbcdc9dd641fbbaa6
-  _linkName: !string OnObjectEnter
-  _primaryStringId: !string OnObjectEnter
-  _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
-  _linkPaths: !System.Collections.ArrayList []
-- &258b201b04744706a5de5b34cb4497ac !CSharpFramework.Shapes.LinkSourceTriggerComponent
-  _ownerShape: *90de3bb086c84413895351327ca120bb
+- &122eb5ba55a34d6280a285da43bc7a54 !CSharpFramework.Shapes.LinkSourceTriggerComponent
+  _ownerShape: *94e35524481d411296899e5331b0980e
   _linkName: !string OnCameraLeave
   _primaryStringId: !string OnCameraLeave
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
-- &295dc25b55744c9495cb3966590f8cd7 !CSharpFramework.Shapes.LinkSourceTriggerComponent
-  _ownerShape: *90de3bb086c84413895351327ca120bb
-  _linkName: !string OnCameraEnter
-  _primaryStringId: !string OnCameraEnter
+- &1c16f1ffd4aa48958e4abaec3b728a5c !CSharpFramework.Shapes.LinkSourceTriggerComponent
+  _ownerShape: *4715575d60ad457fbcdc9dd641fbbaa6
+  _linkName: !string OnObjectEnter
+  _primaryStringId: !string OnObjectEnter
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
 - &314014ddaada42468aa3624f8e1da92e !CSharpFramework.Shapes.LinkSourceTriggerComponent
@@ -258,10 +252,10 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string OnCameraEnter
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
-- &49416184101d48108161f5ade8ec5377 !CSharpFramework.Shapes.LinkSourceTriggerComponent
-  _ownerShape: *90de3bb086c84413895351327ca120bb
-  _linkName: !string OnObjectLeave
-  _primaryStringId: !string OnObjectLeave
+- &59118505bb27424eab6d2fc2f04a4159 !CSharpFramework.Shapes.LinkSourceTriggerComponent
+  _ownerShape: *94e35524481d411296899e5331b0980e
+  _linkName: !string OnObjectEnter
+  _primaryStringId: !string OnObjectEnter
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
 - &6586eda4f4db47008bebca305966f072 !CSharpFramework.Shapes.LinkSourceTriggerComponent
@@ -306,12 +300,6 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string OnObjectLeave
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
-- &ba0c9fdf9280477b93998d06093799b0 !CSharpFramework.Shapes.LinkSourceTriggerComponent
-  _ownerShape: *90de3bb086c84413895351327ca120bb
-  _linkName: !string OnObjectEnter
-  _primaryStringId: !string OnObjectEnter
-  _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
-  _linkPaths: !System.Collections.ArrayList []
 - &bc879da669434613a6bf0843b59c9e18 !CSharpFramework.Shapes.LinkSourceTriggerComponent
   _ownerShape: *a02351a366f7475fb3b3a63092f8f13f
   _linkName: !string OnCameraLeave
@@ -342,6 +330,12 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string OnCameraLeave
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
+- &d974302a88f84518baa8ea1b69171e3d !CSharpFramework.Shapes.LinkSourceTriggerComponent
+  _ownerShape: *94e35524481d411296899e5331b0980e
+  _linkName: !string OnCameraEnter
+  _primaryStringId: !string OnCameraEnter
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
+  _linkPaths: !System.Collections.ArrayList []
 - &e0b037a0e97242ce8cc6e285fb1d91a3 !CSharpFramework.Shapes.LinkSourceTriggerComponent
   _ownerShape: *9ce8c876b45d4250b0dfd42f77769090
   _linkName: !string OnCameraLeave
@@ -352,6 +346,12 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _ownerShape: *1545136910dc423f94cb61174f59f3e8
   _linkName: !string OnCameraEnter
   _primaryStringId: !string OnCameraEnter
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
+  _linkPaths: !System.Collections.ArrayList []
+- &eea180974fd54bc988ebba12fc028771 !CSharpFramework.Shapes.LinkSourceTriggerComponent
+  _ownerShape: *94e35524481d411296899e5331b0980e
+  _linkName: !string OnObjectLeave
+  _primaryStringId: !string OnObjectLeave
   _hotspotIconFilename: !string Bitmaps\Shapes\link_source.png
   _linkPaths: !System.Collections.ArrayList []
 - &f198a42387224dcd9d5f1d16e091b95d !CSharpFramework.Shapes.LinkSourceTriggerComponent
@@ -372,16 +372,16 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string ToggleOn
   _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
   _linkPaths: !System.Collections.ArrayList []
-- &618fb717a9084980ad043b55504f6715 !CSharpFramework.Shapes.LinkTargetTriggerComponent
-  _ownerShape: *32c1fd47347b439688c2cb5fc90bf82f
-  _linkName: !string ToggleOn
-  _primaryStringId: !string ToggleOn
-  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
-  _linkPaths: !System.Collections.ArrayList []
 - &65d1f09f5440408eadfbf3fc47bd25c9 !CSharpFramework.Shapes.LinkTargetTriggerComponent
   _ownerShape: *d66e9f41bad64ca8aad252e4c10b3a7b
   _linkName: !string ToggleOff
   _primaryStringId: !string ToggleOff
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
+  _linkPaths: !System.Collections.ArrayList []
+- &86b10f4776354d0ea901e0fd1631c5c6 !CSharpFramework.Shapes.LinkTargetTriggerComponent
+  _ownerShape: *de69519eefaa4f21b1ab4bc09329a0de
+  _linkName: !string ToggleOn
+  _primaryStringId: !string ToggleOn
   _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
   _linkPaths: !System.Collections.ArrayList []
 - &b9e0befa128c490387dee3bfc4f9df6f !CSharpFramework.Shapes.LinkTargetTriggerComponent
@@ -396,16 +396,16 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _primaryStringId: !string ToggleOff
   _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
   _linkPaths: !System.Collections.ArrayList []
-- &d2d3ee0e123448ce893b6199bae7c0ce !CSharpFramework.Shapes.LinkTargetTriggerComponent
-  _ownerShape: *32c1fd47347b439688c2cb5fc90bf82f
-  _linkName: !string ToggleOff
-  _primaryStringId: !string ToggleOff
-  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
-  _linkPaths: !System.Collections.ArrayList []
 - &e12f5e9b673d47c68db7fe80bf5781f8 !CSharpFramework.Shapes.LinkTargetTriggerComponent
   _ownerShape: *918cc0f5ae8d41e0a98dd95a5aedacb7
   _linkName: !string ToggleOn
   _primaryStringId: !string ToggleOn
+  _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
+  _linkPaths: !System.Collections.ArrayList []
+- &f3e8ddb13f2e420abc7dd9dccbda51c0 !CSharpFramework.Shapes.LinkTargetTriggerComponent
+  _ownerShape: *de69519eefaa4f21b1ab4bc09329a0de
+  _linkName: !string ToggleOff
+  _primaryStringId: !string ToggleOff
   _hotspotIconFilename: !string Bitmaps\Shapes\link_target.png
   _linkPaths: !System.Collections.ArrayList []
 - &af33d82a0006492eb7ef91617f367a6c !CSharpFramework.Shapes.ShapeBase
@@ -464,7 +464,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   - *7f97e8572d3a4b2d894f709391825e5c
   - *71b36a5f8fb44b4f9dac90ebbcba4d24
   _parentShape: *af33d82a0006492eb7ef91617f367a6c
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, AddedToScene
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e AddedToScene
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
@@ -508,68 +508,6 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _lightColor: !System.Drawing.Color
     name: null
     value: !long 4278255368
-    knownColor: !short 0
-    state: !short 2
-  _fIntensity: !float 100
-  _lightType: !VisionEditorPlugin.Shapes.DynLightShape.LightType_e Point
-  _fSpotAngle: !float 45
-  _sProjectedTexture: null
-  _bModelShadows: !bool False
-  _bWorldShadows: !bool True
-  _colorAnimTable: null
-  _fAnimTiming: !float 1
-  _fAnimPhase: !float 0
-  _iWorldInfluence: !int 255
-  _iObjectInfluence: !int 255
-  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
-  _bStatic: !bool False
-  _bPreviewStatic: !bool True
-  _bTurnOffAfterLighting: !bool True
-  _bExportWhenNotRelevant: !bool False
-  _bBakedToLightmap: !bool False
-  _sLightAttenuationTex: !string '\Atten\smooth.dds'
-  _eLightAttenuationCurve: !VisionEditorPlugin.Shapes.DynLightShape.LightAttenuationCurve_e Smooth
-  _lightMultiplier: !float 5
-  _fFadeStart: !float 0
-  _fFadeEnd: !float 0
-  _bTriggered: !bool True
-  _bUseSpecular: !bool True
-  _bRemoveLightAfterAnim: !bool False
-  SupportScaling: !bool True
-- &32c1fd47347b439688c2cb5fc90bf82f !VisionEditorPlugin.Shapes.DynLightShape
-  _shapeName: !string DynamicLight
-  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
-  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
-  _parentShape: *364ab015c7054bd490aedfe25562badb
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e OnlyUniformScale, AddedToScene
-  _bVisible: !bool True
-  _linkSources: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _linkTargets: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList
-    - *618fb717a9084980ad043b55504f6715
-    - *d2d3ee0e123448ce893b6199bae7c0ce
-  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _iLocalID: !uint 293
-  _userDataString: null
-  _orientation: !CSharpFramework.Math.Vector3F
-    X: !float 0
-    Y: !float 0
-    Z: !float 0
-  _scale: !CSharpFramework.Math.Vector3F
-    X: !float 1
-    Y: !float 1
-    Z: !float 1
-  _position: !CSharpFramework.Math.Vector3F
-    X: !float 40.2737579
-    Y: !float 140.6999
-    Z: !float 102.911285
-  _textLabel: null
-  _objectKey: null
-  _lightColor: !System.Drawing.Color
-    name: null
-    value: !long 4279894271
     knownColor: !short 0
     state: !short 2
   _fIntensity: !float 100
@@ -687,7 +625,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Z: !float 1
   _position: !CSharpFramework.Math.Vector3F
     X: !float 0
-    Y: !float 0
+    Y: !float 101.068275
     Z: !float 328.295837
   _textLabel: null
   _objectKey: null
@@ -716,6 +654,68 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _sLightAttenuationTex: !string '\Atten\smooth.dds'
   _eLightAttenuationCurve: !VisionEditorPlugin.Shapes.DynLightShape.LightAttenuationCurve_e Smooth
   _lightMultiplier: !float 2
+  _fFadeStart: !float 0
+  _fFadeEnd: !float 0
+  _bTriggered: !bool True
+  _bUseSpecular: !bool True
+  _bRemoveLightAfterAnim: !bool False
+  SupportScaling: !bool True
+- &de69519eefaa4f21b1ab4bc09329a0de !VisionEditorPlugin.Shapes.DynLightShape
+  _shapeName: !string DynamicLight
+  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection []
+  _parentShape: *dcb8c5b48fcc49a5b9baeb41f8f128f4
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e OnlyUniformScale, AddedToScene
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList
+    - *86b10f4776354d0ea901e0fd1631c5c6
+    - *f3e8ddb13f2e420abc7dd9dccbda51c0
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 299
+  _userDataString: null
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 1
+    Y: !float 1
+    Z: !float 1
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float 40.2737579
+    Y: !float 140.6999
+    Z: !float 102.911285
+  _textLabel: null
+  _objectKey: !string enemyLight
+  _lightColor: !System.Drawing.Color
+    name: null
+    value: !long 4279894271
+    knownColor: !short 0
+    state: !short 2
+  _fIntensity: !float 100
+  _lightType: !VisionEditorPlugin.Shapes.DynLightShape.LightType_e Point
+  _fSpotAngle: !float 45
+  _sProjectedTexture: null
+  _bModelShadows: !bool False
+  _bWorldShadows: !bool True
+  _colorAnimTable: null
+  _fAnimTiming: !float 1
+  _fAnimPhase: !float 0
+  _iWorldInfluence: !int 255
+  _iObjectInfluence: !int 255
+  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
+  _bStatic: !bool False
+  _bPreviewStatic: !bool True
+  _bTurnOffAfterLighting: !bool True
+  _bExportWhenNotRelevant: !bool False
+  _bBakedToLightmap: !bool False
+  _sLightAttenuationTex: !string '\Atten\smooth.dds'
+  _eLightAttenuationCurve: !VisionEditorPlugin.Shapes.DynLightShape.LightAttenuationCurve_e Smooth
+  _lightMultiplier: !float 5
   _fFadeStart: !float 0
   _fFadeEnd: !float 0
   _bTriggered: !bool True
@@ -968,308 +968,6 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     _collectionType: *2d48c0fadc1f446418f504e6a921c5ce
     _properties: !System.Collections.ArrayList []
   _modelFile: !string 
-  _bCastStaticShadows: !bool False
-  _bCastDynamicShadows: !bool False
-  _vLightGridOfs: !CSharpFramework.Math.Vector3F
-    X: !float 0
-    Y: !float 0
-    Z: !float 0
-  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
-  _iLightInfluenceBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e Bit0
-  _ambientColor: !System.Drawing.Color
-    name: null
-    value: !long 4278190080
-    knownColor: !short 0
-    state: !short 2
-  _farClipDistance: !float 0
-  _nearClipDistance: !float 0
-  _renderOrderPriority: !sbyte 0
-- &364ab015c7054bd490aedfe25562badb !VisionEditorPlugin.Shapes.EntityShape
-  _shapeName: !string Sphere.model
-  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
-  _childCollectionGeneric: !CSharpFramework.ShapeCollection
-  - *32c1fd47347b439688c2cb5fc90bf82f
-  - *90de3bb086c84413895351327ca120bb
-  _parentShape: *f6628681799646f080f4d731d6d8e446
-  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e ForceSceneGraphParenting, AddedToScene
-  _bVisible: !bool True
-  _linkSources: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _linkTargets: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
-    CollectionBase+list: !System.Collections.ArrayList []
-  _iLocalID: !uint 295
-  _userDataString: null
-  _componentList: !CSharpFramework.Scene.ShapeComponentCollection
-  - !CSharpFramework.Scene.ShapeComponent
-    _collectionType: *ae3bd3742dead7b9d17e613c84922683
-    _properties: !System.Collections.ArrayList
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string 
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string ComponentID
-        _nativeType: !System.Type string
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string Script/enemyController.lua
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string ScriptFile
-        _nativeType: !System.Type string
-    _bRemovable: !bool True
-    _bActive: !bool True
-    _bVisible: !bool True
-    _bEditable: !bool True
-    _bCreatedByNative: !bool False
-  - !CSharpFramework.Scene.ShapeComponent
-    _collectionType: *1c306ea55260cf81a2a74fd1e543c278
-    _properties: !System.Collections.ArrayList
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string 
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string ComponentID
-        _nativeType: !System.Type string
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string Convex Hull
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
-        _name: !string Shape_Type
-        _nativeType: !System.Type string
-        _enumValues: !string[]
-        - !string Box
-        - !string Sphere
-        - !string Convex Hull
-        - !string File
-        - !string Capsule
-        - !string Cylinder
-        - !string Mesh
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_Radius
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !CSharpFramework.Math.Vector3F
-        X: !float 0
-        Y: !float 0
-        Z: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_BoxSize
-        _nativeType: !System.Type CSharpFramework.Math.Vector3F
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_Height
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool False
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_NoDeactivate
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 10
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_Mass
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0.5
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_Friction
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0.4
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_Restitution
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_LinearDamping
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0.05
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_AngularDamping
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string 
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_FileResourceName
-        _nativeType: !System.Type string
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool False
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_TakeRbDataFromFile
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string Fixed
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
-        _name: !string Havok_MotionType
-        _nativeType: !System.Type string
-        _enumValues: !string[]
-        - !string Dynamic
-        - !string Keyframed
-        - !string Fixed
-        - !string Sphere Inertia
-        - !string Box Inertia
-        - !string Thin Box Inertia
-        - !string Character
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !int 1
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_CollisionLayer
-        _nativeType: !System.Type int
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !int 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_CollisionGroup
-        _nativeType: !System.Type int
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !int 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_SubSystemId
-        _nativeType: !System.Type int
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !int 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_SubSystemDontCollideWith
-        _nativeType: !System.Type int
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string Auto
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
-        _name: !string Havok_QualityType
-        _nativeType: !System.Type string
-        _enumValues: !string[]
-        - !string Auto
-        - !string Fixed
-        - !string Keyframed
-        - !string Debris
-        - !string Debris_Simple_Toi
-        - !string Moving
-        - !string Critical
-        - !string Bullet
-        - !string Character
-        - !string Keyframed_Reporting
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 600
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_MaxKinematicVelocity
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool False
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_AlwaysInitAsDynamic
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool True
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_Active
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string None
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
-        _name: !string Havok_WeldingType
-        _nativeType: !System.Type string
-        _enumValues: !string[]
-        - !string None
-        - !string Anticlockwise
-        - !string Clockwise
-        - !string Two-sided
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool False
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_TightFit
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !CSharpFramework.Math.Vector3F
-        X: !float 0
-        Y: !float 0
-        Z: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_CenterOfMass
-        _nativeType: !System.Type CSharpFramework.Math.Vector3F
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 1
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_GravityFactor
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !string Volume
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
-        _name: !string Havok_InertiaTensorComputeMode
-        _nativeType: !System.Type string
-        _enumValues: !string[]
-        - !string None
-        - !string Surface
-        - !string Volume
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 0.1
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_SurfaceThickness
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !CSharpFramework.Math.Vector3F
-        X: !float 1
-        Y: !float 1
-        Z: !float 1
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_InertiaTensorAxisScaling
-        _nativeType: !System.Type CSharpFramework.Math.Vector3F
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !float 1
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Havok_InertiaTensorScaling
-        _nativeType: !System.Type float
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !CSharpFramework.Math.Vector3F
-        X: !float 0
-        Y: !float 0
-        Z: !float 0
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_PivotOffset
-        _nativeType: !System.Type CSharpFramework.Math.Vector3F
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool True
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Shape_PivotOffsetAutoAlign
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !bool False
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Debug_Render
-        _nativeType: !System.Type bool
-    - !CSharpFramework.DynamicProperties.DynamicProperty
-      _value: !CSharpFramework.BaseTypes.Color4
-        _r: !byte 50
-        _g: !byte 255
-        _b: !byte 50
-        _a: !byte 255
-      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
-        _name: !string Debug_Color
-        _nativeType: !System.Type CSharpFramework.BaseTypes.Color4
-    _bRemovable: !bool True
-    _bActive: !bool True
-    _bVisible: !bool True
-    _bEditable: !bool True
-    _bCreatedByNative: !bool False
-  _orientation: !CSharpFramework.Math.Vector3F
-    X: !float 0
-    Y: !float 0
-    Z: !float 0
-  _scale: !CSharpFramework.Math.Vector3F
-    X: !float 0.2
-    Y: !float 0.2
-    Z: !float 0.2
-  _position: !CSharpFramework.Math.Vector3F
-    X: !float 40.2737579
-    Y: !float 140.6999
-    Z: !float 102.911285
-  _textLabel: null
-  _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
-  _objectKey: null
-  _entityClass: !string VisBaseEntity_cl
-  _entityProperties: !VisionEditorPlugin.Shapes.EntityPropertyCollection
-    _collectionType: *2d48c0fadc1f446418f504e6a921c5ce
-    _properties: !System.Collections.ArrayList []
-  _modelFile: !string Models/Sphere.model
   _bCastStaticShadows: !bool False
   _bCastDynamicShadows: !bool False
   _vLightGridOfs: !CSharpFramework.Math.Vector3F
@@ -1787,7 +1485,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Z: !float 0.1
   _position: !CSharpFramework.Math.Vector3F
     X: !float 0
-    Y: !float 0
+    Y: !float 101.068275
     Z: !float 326.914948
   _textLabel: null
   _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
@@ -1968,6 +1666,308 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _nearClipDistance: !float 0
   _renderOrderPriority: !sbyte 0
   _copySource: *09efaa9c20af43d9a10e1bfc9dfae32c
+- &dcb8c5b48fcc49a5b9baeb41f8f128f4 !VisionEditorPlugin.Shapes.EntityShape
+  _shapeName: !string Sphere.model
+  _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
+  _childCollectionGeneric: !CSharpFramework.ShapeCollection
+  - *de69519eefaa4f21b1ab4bc09329a0de
+  - *94e35524481d411296899e5331b0980e
+  _parentShape: *f6628681799646f080f4d731d6d8e446
+  _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e AddedToScene
+  _bVisible: !bool True
+  _linkSources: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkTargets: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _linkBidirections: !CSharpFramework.Shapes.LinkCollection
+    CollectionBase+list: !System.Collections.ArrayList []
+  _iLocalID: !uint 301
+  _userDataString: null
+  _componentList: !CSharpFramework.Scene.ShapeComponentCollection
+  - !CSharpFramework.Scene.ShapeComponent
+    _collectionType: *ae3bd3742dead7b9d17e613c84922683
+    _properties: !System.Collections.ArrayList
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string 
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ComponentID
+        _nativeType: !System.Type string
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Script/enemyController.lua
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ScriptFile
+        _nativeType: !System.Type string
+    _bRemovable: !bool True
+    _bActive: !bool True
+    _bVisible: !bool True
+    _bEditable: !bool True
+    _bCreatedByNative: !bool False
+  - !CSharpFramework.Scene.ShapeComponent
+    _collectionType: *1c306ea55260cf81a2a74fd1e543c278
+    _properties: !System.Collections.ArrayList
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string 
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string ComponentID
+        _nativeType: !System.Type string
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Convex Hull
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
+        _name: !string Shape_Type
+        _nativeType: !System.Type string
+        _enumValues: !string[]
+        - !string Box
+        - !string Sphere
+        - !string Convex Hull
+        - !string File
+        - !string Capsule
+        - !string Cylinder
+        - !string Mesh
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_Radius
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !CSharpFramework.Math.Vector3F
+        X: !float 0
+        Y: !float 0
+        Z: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_BoxSize
+        _nativeType: !System.Type CSharpFramework.Math.Vector3F
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_Height
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool False
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_NoDeactivate
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 10
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_Mass
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0.5
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_Friction
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0.4
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_Restitution
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_LinearDamping
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0.05
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_AngularDamping
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string 
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_FileResourceName
+        _nativeType: !System.Type string
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool False
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_TakeRbDataFromFile
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Fixed
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
+        _name: !string Havok_MotionType
+        _nativeType: !System.Type string
+        _enumValues: !string[]
+        - !string Dynamic
+        - !string Keyframed
+        - !string Fixed
+        - !string Sphere Inertia
+        - !string Box Inertia
+        - !string Thin Box Inertia
+        - !string Character
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !int 1
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_CollisionLayer
+        _nativeType: !System.Type int
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !int 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_CollisionGroup
+        _nativeType: !System.Type int
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !int 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_SubSystemId
+        _nativeType: !System.Type int
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !int 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_SubSystemDontCollideWith
+        _nativeType: !System.Type int
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Auto
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
+        _name: !string Havok_QualityType
+        _nativeType: !System.Type string
+        _enumValues: !string[]
+        - !string Auto
+        - !string Fixed
+        - !string Keyframed
+        - !string Debris
+        - !string Debris_Simple_Toi
+        - !string Moving
+        - !string Critical
+        - !string Bullet
+        - !string Character
+        - !string Keyframed_Reporting
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 600
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_MaxKinematicVelocity
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool False
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_AlwaysInitAsDynamic
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool True
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_Active
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string None
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
+        _name: !string Havok_WeldingType
+        _nativeType: !System.Type string
+        _enumValues: !string[]
+        - !string None
+        - !string Anticlockwise
+        - !string Clockwise
+        - !string Two-sided
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool False
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_TightFit
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !CSharpFramework.Math.Vector3F
+        X: !float 0
+        Y: !float 0
+        Z: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_CenterOfMass
+        _nativeType: !System.Type CSharpFramework.Math.Vector3F
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 1
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_GravityFactor
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !string Volume
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicEnumPropertyType
+        _name: !string Havok_InertiaTensorComputeMode
+        _nativeType: !System.Type string
+        _enumValues: !string[]
+        - !string None
+        - !string Surface
+        - !string Volume
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 0.1
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_SurfaceThickness
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !CSharpFramework.Math.Vector3F
+        X: !float 1
+        Y: !float 1
+        Z: !float 1
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_InertiaTensorAxisScaling
+        _nativeType: !System.Type CSharpFramework.Math.Vector3F
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !float 1
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Havok_InertiaTensorScaling
+        _nativeType: !System.Type float
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !CSharpFramework.Math.Vector3F
+        X: !float 0
+        Y: !float 0
+        Z: !float 0
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_PivotOffset
+        _nativeType: !System.Type CSharpFramework.Math.Vector3F
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool True
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Shape_PivotOffsetAutoAlign
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !bool False
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Debug_Render
+        _nativeType: !System.Type bool
+    - !CSharpFramework.DynamicProperties.DynamicProperty
+      _value: !CSharpFramework.BaseTypes.Color4
+        _r: !byte 50
+        _g: !byte 255
+        _b: !byte 50
+        _a: !byte 255
+      _propertyType: !CSharpFramework.DynamicProperties.DynamicPropertyType
+        _name: !string Debug_Color
+        _nativeType: !System.Type CSharpFramework.BaseTypes.Color4
+    _bRemovable: !bool True
+    _bActive: !bool True
+    _bVisible: !bool True
+    _bEditable: !bool True
+    _bCreatedByNative: !bool False
+  _orientation: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _scale: !CSharpFramework.Math.Vector3F
+    X: !float 0.2
+    Y: !float 0.2
+    Z: !float 0.2
+  _position: !CSharpFramework.Math.Vector3F
+    X: !float 40.2737579
+    Y: !float 140.6999
+    Z: !float 102.911285
+  _textLabel: null
+  _navMeshUsage: !CSharpFramework.Shapes.Shape3D.eNavMeshUsage IncludeInNavMesh
+  _objectKey: null
+  _entityClass: !string VisBaseEntity_cl
+  _entityProperties: !VisionEditorPlugin.Shapes.EntityPropertyCollection
+    _collectionType: *2d48c0fadc1f446418f504e6a921c5ce
+    _properties: !System.Collections.ArrayList []
+  _modelFile: !string Models/Sphere.model
+  _bCastStaticShadows: !bool False
+  _bCastDynamicShadows: !bool False
+  _vLightGridOfs: !CSharpFramework.Math.Vector3F
+    X: !float 0
+    Y: !float 0
+    Z: !float 0
+  _iVisibleBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e All
+  _iLightInfluenceBitmask: !CSharpFramework.PropertyEditors.FlagsInt32_e Bit0
+  _ambientColor: !System.Drawing.Color
+    name: null
+    value: !long 4278190080
+    knownColor: !short 0
+    state: !short 2
+  _farClipDistance: !float 0
+  _nearClipDistance: !float 0
+  _renderOrderPriority: !sbyte 0
 - &eac18e70a16b4b5e932fe6acdfbf4858 !VisionEditorPlugin.Shapes.EntityShape
   _shapeName: !string EnemySpawn3
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
@@ -2350,7 +2350,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     Z: !float 1
   _position: !CSharpFramework.Math.Vector3F
     X: !float 0
-    Y: !float 0
+    Y: !float 101.068275
     Z: !float 326.914948
   _textLabel: null
   _objectKey: null
@@ -2418,7 +2418,7 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _shapeName: !string Prefabs/Ennemy.prefab
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
   _childCollectionGeneric: !CSharpFramework.ShapeCollection
-  - *364ab015c7054bd490aedfe25562badb
+  - *dcb8c5b48fcc49a5b9baeb41f8f128f4
   _parentShape: *af33d82a0006492eb7ef91617f367a6c
   _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e NodeExpanded, Selected, AddedToScene, SkipParenting, AutoRenamingEnabled
   _bVisible: !bool True
@@ -2450,13 +2450,13 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
   _uniqueIDMatch: !VisionEditorPlugin.Shapes.LocalIDDict
     _count: !int 3
     _keys: !uint[]
-    - !uint 275
-    - !uint 276
-    - !uint 277
+    - !uint 296
+    - !uint 297
+    - !uint 298
     _values: !uint[]
-    - !uint 293
-    - !uint 294
-    - !uint 295
+    - !uint 299
+    - !uint 300
+    - !uint 301
   _perInstanceParameter: null
 - &1545136910dc423f94cb61174f59f3e8 !VisionEditorPlugin.Shapes.TriggerBoxShape
   _shapeName: !string TriggerBox
@@ -2594,24 +2594,24 @@ VisionManaged.TriggerShape_e: VisionManaged.TriggerShape_e, VisionManaged, Versi
     state: !short 2
   _shapeType: !VisionManaged.TriggerShape_e Box
   SupportScaling: !bool True
-- &90de3bb086c84413895351327ca120bb !VisionEditorPlugin.Shapes.TriggerBoxShape
+- &94e35524481d411296899e5331b0980e !VisionEditorPlugin.Shapes.TriggerBoxShape
   _shapeName: !string TriggerBox
   _parentLayer: *1eb5a2555b4d4c83a1a2b4006c08c0ca
   _childCollectionGeneric: !CSharpFramework.ShapeCollection []
-  _parentShape: *364ab015c7054bd490aedfe25562badb
+  _parentShape: *dcb8c5b48fcc49a5b9baeb41f8f128f4
   _hintFlags: !CSharpFramework.Shapes.ShapeBase.HintFlags_e Scene2DRenderingEnabled, AddedToScene
   _bVisible: !bool True
   _linkSources: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList
-    - *295dc25b55744c9495cb3966590f8cd7
-    - *258b201b04744706a5de5b34cb4497ac
-    - *ba0c9fdf9280477b93998d06093799b0
-    - *49416184101d48108161f5ade8ec5377
+    - *d974302a88f84518baa8ea1b69171e3d
+    - *122eb5ba55a34d6280a285da43bc7a54
+    - *59118505bb27424eab6d2fc2f04a4159
+    - *eea180974fd54bc988ebba12fc028771
   _linkTargets: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
   _linkBidirections: !CSharpFramework.Shapes.LinkCollection
     CollectionBase+list: !System.Collections.ArrayList []
-  _iLocalID: !uint 294
+  _iLocalID: !uint 300
   _userDataString: null
   _componentList: !CSharpFramework.Scene.ShapeComponentCollection
   - !CSharpFramework.Scene.ShapeComponent

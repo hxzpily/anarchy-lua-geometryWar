@@ -1,7 +1,7 @@
 -- new script file
 
 function OnAfterSceneLoaded(self)
-  self.defaultGenRate = 5.0f;
+  self.defaultGenRate = 3.0f;
   self.defaultNbSpawnPerRate = 1.0f;
   self.defaultSpawnPos = { };
   getDefaultSpawn(self);
@@ -13,7 +13,6 @@ function getDefaultSpawn(self)
   local i = 0;
   while i < 10 do
     local lName = "EnemySpawn" .. tostring(i+1);
-    Debug:PrintLine(lName);
     self.defaultSpawnPos[i] = Game:GetEntity(lName):GetPosition();
     i = i + 1;
   end
@@ -30,7 +29,7 @@ function generateEnemy(self)
   if (self.currentGenRate <= 0.0f) then
     local i = 0.0f;
     while i < self.defaultNbSpawnPerRate do
-      Game:InstantiatePrefab(self.defaultSpawnPos[math.random(0, 10)], "Prefabs/Ennemy.vprefab", nil);
+      Game:InstantiatePrefab(self.defaultSpawnPos[math.random(0, 9)], "Prefabs/Ennemy.vprefab", nil);
       i = i + 1.0f;
     end
     self.currentGenRate = self.defaultGenRate;
