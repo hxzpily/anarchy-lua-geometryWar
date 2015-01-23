@@ -1,4 +1,5 @@
 -- new script file
+
 function OnAfterSceneLoaded(self)
 
 self.rigidBody = self:GetComponentOfType("vHavokRigidBody");

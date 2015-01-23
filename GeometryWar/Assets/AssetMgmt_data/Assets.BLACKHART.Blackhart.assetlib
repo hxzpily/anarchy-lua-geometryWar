@@ -114,9 +114,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 1073232655,
-                "TimeStamp": 1421948826240816500,
-                "LastEditTime": 1421948827256462000
+                "Hash": 1754617890,
+                "TimeStamp": 1421971431788753800,
+                "LastEditTime": 1421971432863332700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -135,15 +135,15 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 243397227,
-                "TimeStamp": 1421970055253870500,
-                "LastEditTime": 1421970056269564000
+                "Hash": 2792300557,
+                "TimeStamp": 1421970785801603000,
+                "LastEditTime": 1421970786817193100
             },
             "Transformations": {
                 "TemplateName": "Default"
             }
         },
-        "Script/ennemyData.lua": {
+        "Script/enemyController.lua": {
             "AssetType": "Script",
             "Common": {
                 "Tags": "__NEW_ASSET__",
@@ -156,9 +156,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 4109935767,
-                "TimeStamp": 1421949521044465400,
-                "LastEditTime": 1421949862959231900
+                "Hash": 567552985,
+                "TimeStamp": 1421972263499475200,
+                "LastEditTime": 1421972264512310900
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -177,9 +177,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 2397028601,
-                "TimeStamp": 1421951198699364000,
-                "LastEditTime": 1421951199715009100
+                "Hash": 358970547,
+                "TimeStamp": 1421971420437907200,
+                "LastEditTime": 1421971421453599100
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -198,9 +198,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 2652644695,
-                "TimeStamp": 1421950545041190900,
-                "LastEditTime": 1421950546056789600
+                "Hash": 2074124712,
+                "TimeStamp": 1421971307070689700,
+                "LastEditTime": 1421971308096677700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -219,9 +219,9 @@
                 "UpdateAfterLoad": false
             },
             "File": {
-                "Hash": 871391832,
-                "TimeStamp": 1421970015727652200,
-                "LastEditTime": 1421970016775248400
+                "Hash": 2063330568,
+                "TimeStamp": 1421971370787176000,
+                "LastEditTime": 1421971371802851500
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -291,6 +291,15 @@
             },
             "File": {
                 "LastEditTime": 1421857101017166800
+            }
+        },
+        "Script/ennemyData.lua": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1421971554322465300
+            },
+            "File": {
+                "LastEditTime": 1421971554322465300
             }
         },
         "Script/simpleBullet.lua": {

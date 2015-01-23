@@ -1,11 +1,19 @@
 -- new script file
+
+-- Called when the ennemy collide with the player
 function OnObjectEnter(self, object)
 
---Debug:PrintLine("Hit");
 if (object.ennemy == true) then
-  Debug:PrintLine("je suis un ennemy");
-  self:GetParent().currentLife = self:GetParent().currentLife - 1.0f;
+
+  -- Get the base player
+  local lParent = self:GetParent();
+  
+  -- Decreases the player's life
+  lParent.currentLife = lParent.currentLife - 1.0f;
+  
+  -- Remove the ennemy
   object:Remove();
+  
 end
 
 end

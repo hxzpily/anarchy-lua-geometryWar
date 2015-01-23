@@ -15,6 +15,7 @@ self.maxEdgeY = Game:GetEntity("collRight"):GetPosition().y;
 
 self.currentLife = self.defaultLife;
 self.fireRate = self.defaultFireRate;
+self.currentScore = 0.0f;
 
 end
 
@@ -24,7 +25,7 @@ function OnThink(self)
 moveCharacter(self);
 orientCharacter(self);
 fire(self);
-Debug:PrintLine(tostring(self.currentLife));
+Debug:PrintLine(tostring(self.currentScore));
 
 end
 

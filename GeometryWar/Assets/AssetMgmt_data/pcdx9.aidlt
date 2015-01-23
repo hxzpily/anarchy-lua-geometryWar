@@ -4,7 +4,7 @@ prefabs/player.prefab	Prefabs/player.prefab
 scenes/game/main_p01.dds	AssetMgmt_data/transformed/main_p010rn0j1xclgdtc.dds	sRGB=false
 script/bullet.lua	Script/bullet.lua	
 script/charactercontroller.lua	Script/characterController.lua	
-script/ennemydata.lua	Script/ennemyData.lua	
+script/enemycontroller.lua	Script/enemyController.lua	
 script/ennemytriggerhit.lua	Script/ennemyTriggerHit.lua	
 script/mapcollider.lua	Script/mapCollider.lua	
 script/playertriggerhit.lua	Script/playerTriggerHit.lua	
