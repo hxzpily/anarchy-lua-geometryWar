@@ -6,7 +6,7 @@ script/scenescript.lua	Script/sceneScript.lua
 scenes/game/main_p01.dds	Scenes/Game/main_P01.dds	sRGB=false
 script/bullet.lua	Script/bullet.lua	
 script/enemycontroller.lua	Script/enemyController.lua	
+script/enemygenerator.lua	Script/enemyGenerator.lua	
 script/ennemytriggerhit.lua	Script/ennemyTriggerHit.lua	
 script/mapcollider.lua	Script/mapCollider.lua	
 script/playertriggerhit.lua	Script/playerTriggerHit.lua	
-script/enemygenerator.lua	Script/enemyGenerator.lua	
