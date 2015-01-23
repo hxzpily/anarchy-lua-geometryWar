@@ -4,7 +4,8 @@ function OnAfterSceneLoaded(self)
   self.movementSpeed = 100.0f;
   self.orientationSpeed = 200.0f;
   self.defaultFireRate = 0.2f;
-  self.bulletDefaultPos = Game:GetEntity("bulletDefaultPos");
+  self.bulletDefaultPos1 = Game:GetEntity("bulletDefaultPos1");
+  self.bulletDefaultPos2 = Game:GetEntity("bulletDefaultPos2");
   self.defaultLife = 5.0f;
   self.minEdgeX = Game:GetEntity("collBottom"):GetPosition().x;
   self.maxEdgeX = Game:GetEntity("collTop"):GetPosition().x;
@@ -63,7 +64,8 @@ end
 function fire(self)
   self.fireRate = self.fireRate - Timer:GetTimeDiff();
   if (self.fireRate <= 0.0f and Input:IsKeyPressed(Vision.KEY_SPACE)) then
-    Game:InstantiatePrefab(self.bulletDefaultPos:GetPosition(), "Prefabs/bullet.vprefab", nil);
+    Game:InstantiatePrefab(self.bulletDefaultPos1:GetPosition(), "Prefabs/bullet.vprefab", nil);
+    Game:InstantiatePrefab(self.bulletDefaultPos2:GetPosition(), "Prefabs/bullet.vprefab", nil);
     self.fireRate = self.defaultFireRate;
   end
 end
