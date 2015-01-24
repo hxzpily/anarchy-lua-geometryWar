@@ -10,3 +10,5 @@ script/enemygenerator.lua	Script/enemyGenerator.lua
 script/ennemytriggerhit.lua	Script/ennemyTriggerHit.lua	
 script/mapcollider.lua	Script/mapCollider.lua	
 script/playertriggerhit.lua	Script/playerTriggerHit.lua	
+flash/mainmenu_i8.tga	Flash/MainMenu_I8.tga	sRGB=false
+flash/mainmenu_if.tga	Flash/MainMenu_IF.tga	sRGB=false
