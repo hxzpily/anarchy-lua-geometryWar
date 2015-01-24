@@ -4,7 +4,6 @@ atten/none.dds	Atten/none.dds	sRGB=false
 atten/quad.dds	Atten/quad.dds	sRGB=false
 atten/smooth.dds	Atten/smooth.dds	sRGB=false
 atten/square.dds	Atten/square.dds	sRGB=false
-vcolors.dds	vcolors.dds	sRGB=false
 defaultspotlight.dds	defaultSpotlight.dds	sRGB=false
 editor/textures/blocker.bmp	Editor/Textures/blocker.bmp	sRGB=false
 editor/textures/missing.tga	Editor/Textures/missing.tga	sRGB=true
@@ -74,11 +73,6 @@ meshes/primitive_sphere.vmesh	Meshes/Primitive_Sphere.vmesh	UseCustomLODDistance
 meshes/primitive_spherequarter.vmesh	Meshes/Primitive_SphereQuarter.vmesh	UseCustomLODDistances=false,LODSwitchDistances=
 meshes/primitive_torusquarter.vmesh	Meshes/Primitive_TorusQuarter.vmesh	UseCustomLODDistances=false,LODSwitchDistances=
 metalfloor.dds	metalFloor.dds	sRGB=false
-textures/vapp_slider.dds	Textures/vapp_slider.dds	sRGB=false
-textures/vapp_shortcut_pc.tga	Textures/vapp_shortcut_pc.tga	sRGB=false
-textures/vapp_scrollbar.dds	Textures/vapp_scrollbar.dds	sRGB=false
-textures/vapp_group_icon.dds	Textures/vapp_group_icon.dds	sRGB=false
-textures/vapp_grad.dds	Textures/vapp_grad.dds	sRGB=false
 models/blubber.dds	Models/blubber.dds	sRGB=false
 models/magicball.model	Models/MagicBall.model	UseCustomLODDistances=false,LODSwitchDistances=
 models/missingmodel.dds	Models/MissingModel.dds	sRGB=false
@@ -136,3 +130,9 @@ textures/vapp_cursor.tga	Textures/vapp_cursor.tga	sRGB=false
 textures/vapp_gear.tga	Textures/vapp_gear.tga	sRGB=false
 textures/vapp_gear.tga#@2x	|textures/vapp_gear@2x.tga	
 textures/vapp_gear@2x.tga	Textures/vapp_gear@2x.tga	sRGB=false
+textures/vapp_grad.dds	Textures/vapp_grad.dds	sRGB=false
+textures/vapp_group_icon.dds	Textures/vapp_group_icon.dds	sRGB=false
+textures/vapp_scrollbar.dds	Textures/vapp_scrollbar.dds	sRGB=false
+textures/vapp_shortcut_pc.tga	Textures/vapp_shortcut_pc.tga	sRGB=false
+textures/vapp_slider.dds	Textures/vapp_slider.dds	sRGB=false
+vcolors.dds	vcolors.dds	sRGB=false

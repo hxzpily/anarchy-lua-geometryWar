@@ -32,7 +32,7 @@
     <property name="ShapeName" value="Sphere.model" />
     <property name="UserDataString" value="" />
     <property name="ExportShape" value="True" />
-    <property name="UniqueID" value="10252655292869247277" />
+    <property name="UniqueID" value="10252655292869247307" />
     <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=Script/enemyController.lua;" visible="True" serializable="True" editable="True" removable="True" />
     <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Convex Hull;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Havok_NoDeactivate=False;Havok_Mass=10;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Havok_TakeRbDataFromFile=False;Havok_MotionType=Fixed;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;Shape_CenterOfMass=0,0,0;Havok_GravityFactor=1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Shape_PivotOffset=0,0,0;Shape_PivotOffsetAutoAlign=True;Debug_Render=False;Debug_Color=50,255,50,255;" visible="True" serializable="True" editable="True" removable="True" />
     <shape class="DynLightShape">
@@ -70,7 +70,7 @@
       <property name="ShapeName" value="DynamicLight" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247275" />
+      <property name="UniqueID" value="10252655292869247305" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOn" ID="ToggleOn" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOff" ID="ToggleOff" />
     </shape>
@@ -94,7 +94,7 @@
       <property name="ShapeName" value="TriggerBox" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247276" />
+      <property name="UniqueID" value="10252655292869247306" />
       <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=Script\092ennemyTriggerHit.lua;" visible="True" serializable="True" editable="True" removable="True" />
       <linksource class="LinkSourceTriggerComponent" name="OnCameraEnter" ID="OnCameraEnter" />
       <linksource class="LinkSourceTriggerComponent" name="OnCameraLeave" ID="OnCameraLeave" />

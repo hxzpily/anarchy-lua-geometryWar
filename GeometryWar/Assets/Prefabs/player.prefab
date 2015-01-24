@@ -32,7 +32,7 @@
     <property name="ShapeName" value="Primitive_Box.model" />
     <property name="UserDataString" value="" />
     <property name="ExportShape" value="True" />
-    <property name="UniqueID" value="10252655292869247249" />
+    <property name="UniqueID" value="10252655292869247304" />
     <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Convex Hull;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Havok_NoDeactivate=False;Havok_Mass=10;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Havok_TakeRbDataFromFile=False;Havok_MotionType=Keyframed;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;Shape_CenterOfMass=0,0,0;Havok_GravityFactor=1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Shape_PivotOffset=0,0,0;Shape_PivotOffsetAutoAlign=True;Debug_Render=False;Debug_Color=50,255,50,255;" visible="True" serializable="True" editable="True" removable="True" />
     <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=Script\092characterController.lua;" visible="True" serializable="True" editable="True" removable="True" />
     <shape class="EntityShape">
@@ -65,7 +65,7 @@
       <property name="ShapeName" value="Primitive_Cylinder.model" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247245" />
+      <property name="UniqueID" value="10252655292869247299" />
     </shape>
     <shape class="DynLightShape">
       <property name="LightColor" value="0,255,8,255" />
@@ -102,7 +102,7 @@
       <property name="ShapeName" value="DynamicLight" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247246" />
+      <property name="UniqueID" value="10252655292869247300" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOn" ID="ToggleOn" />
       <linktarget class="LinkTargetTriggerComponent" name="ToggleOff" ID="ToggleOff" />
     </shape>
@@ -126,7 +126,7 @@
       <property name="ShapeName" value="TriggerBox" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247247" />
+      <property name="UniqueID" value="10252655292869247301" />
       <component class="VScriptComponent" paramstring="ComponentID=;ScriptFile=Script\092playerTriggerHit.lua;" visible="True" serializable="True" editable="True" removable="True" />
       <linksource class="LinkSourceTriggerComponent" name="OnCameraEnter" ID="OnCameraEnter" />
       <linksource class="LinkSourceTriggerComponent" name="OnCameraLeave" ID="OnCameraLeave" />
@@ -163,7 +163,7 @@
       <property name="ShapeName" value="Gun1" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247248" />
+      <property name="UniqueID" value="10252655292869247302" />
     </shape>
     <shape class="EntityShape">
       <property name="ModelFile" value="" />
@@ -195,7 +195,7 @@
       <property name="ShapeName" value="Gun2" />
       <property name="UserDataString" value="" />
       <property name="ExportShape" value="True" />
-      <property name="UniqueID" value="10252655292869247278" />
+      <property name="UniqueID" value="10252655292869247303" />
     </shape>
   </shape>
 </root>

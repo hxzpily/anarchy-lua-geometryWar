@@ -2,7 +2,7 @@
 
 function OnAfterSceneLoaded(self)
   self.defaultGenRate = 3.0f;
-  self.defaultNbSpawnPerRate = 1.0f;
+  self.defaultNbSpawnPerRate = 3.0f;
   self.defaultSpawnPos = { };
   getDefaultSpawn(self);
   self.currentGenRate = self.defaultGenRate;

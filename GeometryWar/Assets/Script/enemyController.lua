@@ -23,6 +23,7 @@ function initPrefab(self)
   self.hit = function(damage)
               self.defaultLife = self.defaultLife - damage;
               if (self.defaultLife <= 0.0f) then
+                Game:GetEntity("Character").incScore(self.defaultGain);
                 self:Remove();
               end
              end

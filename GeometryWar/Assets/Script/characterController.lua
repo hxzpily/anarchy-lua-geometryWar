@@ -1,6 +1,23 @@
 -- new script file
 
 function OnAfterSceneLoaded(self)
+  initPrefab(self);
+end
+
+
+function OnThink(self)
+  if (self.init == nil) then
+    initPrefab(self);
+  end
+  moveCharacter(self);
+  orientCharacter(self);
+  fire(self);
+  updatePlayerGUI(self);
+end
+
+
+function initPrefab(self)
+  self.init = true;
   self.movementSpeed = 100.0f;
   self.orientationSpeed = 200.0f;
   self.defaultFireRate = 0.2f;
@@ -14,19 +31,73 @@ function OnAfterSceneLoaded(self)
   self.currentLife = self.defaultLife;
   self.fireRate = self.defaultFireRate;
   self.currentScore = 0.0f;
+  self.defaultSpawnPos = { };
+  self.timeInLive = 0.0f;
+  
+  getDefaultSpawn(self);
+  
+  -- Hit member function
   self.hit = nil;
   self.hit = function(damage)
                 self.defaultLife = self.defaultLife - damage;
                 G.mainMovie:Invoke("_root.SetNumberOfLife", tostring(self.defaultLife));
+                if (self.defaultLife <= 0.0f) then
+                  die(self);
+                end
+                self:SetPosition(self.defaultSpawnPos[math.random(0, 4)]);
              end
+             
+  -- Increment score function
+  self.incScore = nil;
+  self.incScore = function(points)
+                    self.currentScore = self.currentScore + points;
+                    updatePlayerGUI(self);
+                  end
+                  
   G.mainMovie:Invoke("_root.SetNumberOfLife", tostring(self.defaultLife));
 end
 
 
-function OnThink(self)
-  moveCharacter(self);
-  orientCharacter(self);
-  fire(self);
+function getDefaultSpawn(self)
+  local i = 0;
+  while i < 5 do
+    local lName = "PlayerSpawn" .. tostring(i+1);
+    self.defaultSpawnPos[i] = Game:GetEntity(lName):GetPosition();
+    i = i + 1;
+  end
+end
+
+
+function updatePlayerGUI(self)
+  self.timeInLive = self.timeInLive + Timer:GetTimeDiff();
+  local lSecondes = math.modf(self.timeInLive);
+  if (lSecondes >= 60) then
+    lSecondes = lSecondes - (60 * math.modf(lSecondes / 60));
+  end
+  if (lSecondes < 10) then
+    lSecondes = "0" .. lSecondes;
+  end
+  local lMinutes = math.modf(self.timeInLive / 60.0f);
+  G.mainMovie:Invoke("_root.SetTime", tostring(lMinutes .. ":" .. lSecondes));
+  G.mainMovie:Invoke("_root.SetScore", tostring(self.currentScore + math.modf(self.timeInLive)));
+end
+
+
+function die(self)
+  local lScore = self.currentScore + math.modf(self.timeInLive);
+  local lBestScore = G.bestScore;
+  if (lBestScore == nil) then
+    lBestScore = 0;
+  else
+    lBestScore = tonumber(lBestScore);
+  end
+  if (lScore > lBestScore) then
+    G.bestScore = tostring(lScore);
+    fichier = io.open("Score.txt", "w");
+    fichier:write(tostring(lScore));
+    fichier:close();
+  end
+  Application:LoadScene("Scenes/Menu/mainMenu.vscene");
 end
 
 

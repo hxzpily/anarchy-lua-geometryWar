@@ -15,7 +15,7 @@ System.Type: System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyT
 uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 ...
 ---
-- &80282c639f0147ccac47556e9e1820a9 !CSharpFramework.Scene.SceneExportProfile
+- &46edf33861254388b46f2dfad3cdfb66 !CSharpFramework.Scene.SceneExportProfile
   ExportPath: !string Scenes\Game\main.vscene
   RunAfterExport: !bool False
   IncludeVisibilityInfo: !bool True
@@ -32,14 +32,14 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
   ExportedZoneNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList []
   PluginsUserSelection: !System.Collections.Generic.Dictionary%3Cstring,%20bool%3E
-    Version: !int 27
-    Comparer: *2b728ff3845b44f894f96c4b5ea04216
+    Version: !int 11
+    Comparer: *feb2e4e0e0a8453e9727635a1abe6392
     HashSize: !int 3
     KeyValuePairs: !System.Collections.Generic.KeyValuePair%3Cstring,%20bool%3E[]
     - !System.Collections.Generic.KeyValuePair%3Cstring,%20bool%3E
       key: !string vScaleformPlugin
       value: !bool True
-  SelectedAssetProfiles: *87dd671e19024a24a6faac1172f9cd82
+  SelectedAssetProfiles: *dc94c6e3492b4eeda569ec13ccd9312a
   _allLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
@@ -47,8 +47,8 @@ uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
     - !string Entity
   _allZoneNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList []
-- &87dd671e19024a24a6faac1172f9cd82 !CSharpFramework.BaseTypes.ProfileEnum
+- &dc94c6e3492b4eeda569ec13ccd9312a !CSharpFramework.BaseTypes.ProfileEnum
   _profiles: !System.Collections.Generic.List%3Cstring%3E []
   _allProfiles: !bool True
-- &2b728ff3845b44f894f96c4b5ea04216 !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
+- &feb2e4e0e0a8453e9727635a1abe6392 !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
 ...

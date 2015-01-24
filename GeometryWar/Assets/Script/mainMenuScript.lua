@@ -10,6 +10,10 @@ function OnAfterSceneLoaded()
     end
   end
   G.mainMovie:Invoke("_root.OpenMainMenu");
+  fichier = io.open("Score.txt", "r");
+  G.bestScore = fichier:read();
+  G.mainMovie:Invoke("_root.SetBestScore", G.bestScore);
+  fichier:close();
 end
 
 
@@ -29,4 +33,11 @@ function OnExternalInterfaceCall(movie, command, argTable)
     Debug:PrintLine("Starting the game");
     Application:LoadScene("Scenes/Game/main.vscene");
   end
+end
+
+function OnUpdateSceneFinished()
+	  fichier = io.open("Score.txt", "r");
+  G.bestScore = fichier:read();
+  G.mainMovie:Invoke("_root.SetBestScore", G.bestScore);
+  fichier:close();
 end

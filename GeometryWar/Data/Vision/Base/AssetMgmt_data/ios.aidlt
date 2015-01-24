@@ -4,7 +4,6 @@ atten/none.dds	Atten/none.dds	sRGB=false
 atten/quad.dds	Atten/quad.dds	sRGB=false
 atten/smooth.dds	Atten/smooth.dds	sRGB=false
 atten/square.dds	Atten/square.dds	sRGB=false
-cloudlayer.dds	AssetMgmt_data/transformed/cloudlayergsmdnhnclgdtc.pvr	sRGB=false
 defaultspotlight.dds	defaultSpotlight.dds	sRGB=false
 editor/textures/blocker.bmp	AssetMgmt_data/transformed/blocker0nq73lllx39bv.rgba	sRGB=false
 editor/textures/missing.tga	AssetMgmt_data/transformed/missing8ycy4nvlx39bv.rgba	sRGB=true
@@ -74,11 +73,6 @@ meshes/primitive_sphere.vmesh	Meshes/Primitive_Sphere.vmesh	UseCustomLODDistance
 meshes/primitive_spherequarter.vmesh	Meshes/Primitive_SphereQuarter.vmesh	UseCustomLODDistances=false,LODSwitchDistances=
 meshes/primitive_torusquarter.vmesh	Meshes/Primitive_TorusQuarter.vmesh	UseCustomLODDistances=false,LODSwitchDistances=
 metalfloor.dds	AssetMgmt_data/transformed/metalfloor19zbr4xclgdtc.pvr	sRGB=false
-metro/largelogo.png	AssetMgmt_data/transformed/largelogo2ndqgg6lx39bv.rgba	sRGB=false
-metro/smalllogo.png	AssetMgmt_data/transformed/smalllogo7tfp57qlx39bv.rgba	sRGB=false
-metro/splashscreen.png	AssetMgmt_data/transformed/splashscreen4tz9dgvlx39bv.rgba	sRGB=false
-metro/storelogo.png	AssetMgmt_data/transformed/storelogo7rs1#g2lx39bv.rgba	sRGB=false
-metro/widelogo.png	AssetMgmt_data/transformed/widelogo59xk546lx39bv.rgba	sRGB=false
 models/blubber.dds	AssetMgmt_data/transformed/blubberbt9m7h4clgdtc.pvr	sRGB=false
 models/magicball.model	Models/MagicBall.model	UseCustomLODDistances=false,LODSwitchDistances=
 models/missingmodel.dds	AssetMgmt_data/transformed/missingmodel55t5gyxclgdtc.pvr	sRGB=false

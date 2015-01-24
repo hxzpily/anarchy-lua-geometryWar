@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeometryWarAppDX9", "Source\GeometryWarApp\GeometryWarAppDX9_win32_vs2010_anarchy.vcxproj", "{F6686A1D-5B93-41A7-A729-80881BA0EC80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89} = {CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeometryWarEnginePluginDX9", "Source\GeometryWarEnginePlugin\GeometryWarEnginePluginDX9_win32_vs2010_anarchy.vcxproj", "{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vision", "Vision", "{460876BE-D980-48D9-81B2-24A35378E08B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{D6663278-F4A5-48F1-8651-B3B7B29BB68C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{2A873D9F-D589-45C6-B926-E76127CF5013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|win32 = Debug|win32
+		Dev|win32 = Dev|win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6686A1D-5B93-41A7-A729-80881BA0EC80}.Debug|win32.ActiveCfg = Debug|win32
+		{F6686A1D-5B93-41A7-A729-80881BA0EC80}.Debug|win32.Build.0 = Debug|win32
+		{F6686A1D-5B93-41A7-A729-80881BA0EC80}.Dev|win32.ActiveCfg = Dev|win32
+		{F6686A1D-5B93-41A7-A729-80881BA0EC80}.Dev|win32.Build.0 = Dev|win32
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}.Debug|win32.ActiveCfg = Debug|win32
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}.Debug|win32.Build.0 = Debug|win32
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}.Dev|win32.ActiveCfg = Dev|win32
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89}.Dev|win32.Build.0 = Dev|win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6686A1D-5B93-41A7-A729-80881BA0EC80} = {2A873D9F-D589-45C6-B926-E76127CF5013}
+		{CE3EC16E-0B81-42D6-9C96-3C86BDA83A89} = {2A873D9F-D589-45C6-B926-E76127CF5013}
+		{D6663278-F4A5-48F1-8651-B3B7B29BB68C} = {460876BE-D980-48D9-81B2-24A35378E08B}
+		{2A873D9F-D589-45C6-B926-E76127CF5013} = {D6663278-F4A5-48F1-8651-B3B7B29BB68C}
+	EndGlobalSection
+EndGlobal
