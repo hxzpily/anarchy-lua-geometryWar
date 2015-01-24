@@ -17,7 +17,9 @@ function OnAfterSceneLoaded(self)
   self.hit = nil;
   self.hit = function(damage)
                 self.defaultLife = self.defaultLife - damage;
+                G.mainMovie:Invoke("_root.SetNumberOfLife", tostring(self.defaultLife));
              end
+  G.mainMovie:Invoke("_root.SetNumberOfLife", tostring(self.defaultLife));
 end
 
 

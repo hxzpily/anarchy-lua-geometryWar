@@ -1,5 +1,5 @@
-flash/mainmenu_i8.tga	AssetMgmt_data/transformed/mainmenu_i85jc60fsclgdtc.dds	sRGB=false
-flash/mainmenu_if.tga	AssetMgmt_data/transformed/mainmenu_ifgpm7t30clgdtc.dds	sRGB=false
+flash/mainmenu_i8.tga	Flash/MainMenu_I8.tga	sRGB=false
+flash/mainmenu_if.tga	Flash/MainMenu_IF.tga	sRGB=false
 prefabs/bullet.prefab	Prefabs/bullet.prefab	
 prefabs/ennemy.prefab	Prefabs/Ennemy.prefab	
 prefabs/player.prefab	Prefabs/player.prefab	
@@ -9,6 +9,7 @@ script/charactercontroller.lua	Script/characterController.lua
 script/enemycontroller.lua	Script/enemyController.lua	
 script/enemygenerator.lua	Script/enemyGenerator.lua	
 script/ennemytriggerhit.lua	Script/ennemyTriggerHit.lua	
+script/mainmenuscript.lua	Script/mainMenuScript.lua	
 script/mapcollider.lua	Script/mapCollider.lua	
 script/playertriggerhit.lua	Script/playerTriggerHit.lua	
 script/scenescript.lua	Script/sceneScript.lua	

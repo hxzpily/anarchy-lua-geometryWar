@@ -7,44 +7,48 @@ string: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToke
 System.Collections.ArrayList: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Collections.Generic.Dictionary<string, bool>: System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Collections.Generic.GenericEqualityComparer<string>: System.Collections.Generic.GenericEqualityComparer`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Collections.Generic.KeyValuePair<string, bool>: System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Collections.Generic.KeyValuePair<string, bool>[]: System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]][], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Collections.Generic.List<string>: System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Collections.Specialized.StringCollection: System.Collections.Specialized.StringCollection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Type: System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 uint: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 ...
 ---
-- &efe3229d3dae4f5d9a2ced25214fa621 !CSharpFramework.Scene.SceneExportProfile
-  ExportPath: !string Scenes\main.vscene
+- &80282c639f0147ccac47556e9e1820a9 !CSharpFramework.Scene.SceneExportProfile
+  ExportPath: !string Scenes\Game\main.vscene
   RunAfterExport: !bool False
   IncludeVisibilityInfo: !bool True
   EmbedCustomLitFile: !bool False
-  UpdateAssetTransformations: !bool False
+  UpdateAssetTransformations: !bool True
   InvisibleLayersExportInvisibleObjects: !bool True
   LoadedZonesOnly: !bool True
   ExportFlags: !uint 4294967295
   ExportedLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
-    - !string Nav Mesh
     - !string Static
     - !string Entity
   ExportedZoneNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList []
   PluginsUserSelection: !System.Collections.Generic.Dictionary%3Cstring,%20bool%3E
-    Version: !int 0
-    Comparer: *79b9c95928c841cd8e5ee3116097faff
-    HashSize: !int 0
-  SelectedAssetProfiles: *6dae13c5793845fda9977bd0270de09f
+    Version: !int 27
+    Comparer: *2b728ff3845b44f894f96c4b5ea04216
+    HashSize: !int 3
+    KeyValuePairs: !System.Collections.Generic.KeyValuePair%3Cstring,%20bool%3E[]
+    - !System.Collections.Generic.KeyValuePair%3Cstring,%20bool%3E
+      key: !string vScaleformPlugin
+      value: !bool True
+  SelectedAssetProfiles: *87dd671e19024a24a6faac1172f9cd82
   _allLayerNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList
     - !string Main layer
-    - !string Nav Mesh
     - !string Static
     - !string Entity
   _allZoneNames: !System.Collections.Specialized.StringCollection
     data: !System.Collections.ArrayList []
-- &6dae13c5793845fda9977bd0270de09f !CSharpFramework.BaseTypes.ProfileEnum
+- &87dd671e19024a24a6faac1172f9cd82 !CSharpFramework.BaseTypes.ProfileEnum
   _profiles: !System.Collections.Generic.List%3Cstring%3E []
   _allProfiles: !bool True
-- &79b9c95928c841cd8e5ee3116097faff !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
+- &2b728ff3845b44f894f96c4b5ea04216 !System.Collections.Generic.GenericEqualityComparer%3Cstring%3E {}
 ...
